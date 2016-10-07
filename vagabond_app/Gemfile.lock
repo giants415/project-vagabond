@@ -175,10 +175,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   haml (~> 4.0.7)
-<<<<<<< HEAD
-=======
   haml-rails
->>>>>>> 12dd6e2402870272178aeec541742cf35307a25a
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
