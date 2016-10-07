@@ -1,5 +1,3 @@
-@import (foundation);
-
-@include foundation-everything(true);
-@include foundation-flex-classes;
-@include foundation-flex-grid;
+body {
+  background-color: blue;
+}
