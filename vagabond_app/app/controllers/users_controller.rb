@@ -10,24 +10,19 @@ class UsersController < ApplicationController
 
   def create
     @user = User.create(user_params)
-
-    # @user.save
-
+    login(@user)
     redirect_to root_path
   end
 
   def show
-    user_id = params[:id]
     @user = User.find_by_id(user_id)
   end
 
   def edit
-    user_id = params[:id]
     @user = User.find_by_id(user_id)
   end
 
   def update
-    user_id = params[:id]
     user = User.find_by_id(user_id)
     user.update_attributes(user_params)
     redirect_to user_path(user)
@@ -36,5 +31,9 @@ class UsersController < ApplicationController
 private
   def user_params
     params.require(:user).permit(:first_name, :last_name, :username, :email, :password, :city)
+  end
+
+  def user_id
+    params[:id]
   end
 end
