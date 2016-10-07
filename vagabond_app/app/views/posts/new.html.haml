@@ -1,0 +1,10 @@
+%h1 Create a post below!
+
+= form_for @post do |f|
+    = f.label :title, 'Title:'
+    = f.text_field :title
+
+    = f.label :content, 'Content:'
+    = f.text_area :content
+
+    = f.submit 'Create Post!'
