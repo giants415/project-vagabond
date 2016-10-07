@@ -1,28 +1,29 @@
 class SessionsController < ApplicationController
-  def index
+
+  def new
+    @user = User.new
+    render :new
   end
 
-  # def new
-  #   @user = User.new
-  # end
-  #
-  # def create
-  #   user_params = params.require(:user).permit(:username, :password)
-  #
-  #   @user = User.confirm(user_params)
-  #   if @user
-  #     login(@user)
-  #     flash[:notice] = "Successfully logged in."
-  #     redirect_to @user
-  #   else
-  #     flash[:error] = "Incorrect username or password."
-  #     redirect_to login_path
-  #   end
-  # end
+  def create
+    @user = User.confirm(user_params)
+    if @user
+      login(@user)
+      flash[:notice] = "Successfully logged in."
+      redirect_to @user
+    else
+      flash[:error] = "Incorrect username or password."
+      redirect_to new_session_path
+    end
+  end
 
   def destroy
-    session[:user_id] = nil
+    logout
     flash[:notice] = "Successfully logged out."
     redirect_to root_path
+  end
+
+  def user_params
+    params.require(:user).permit(:username, :password)
   end
 end
