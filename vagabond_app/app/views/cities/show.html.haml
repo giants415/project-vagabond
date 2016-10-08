@@ -1,2 +1,6 @@
 %h1= @city.city_name
 %p= @city.city_state
+
+- if @posts
+  %h1= @posts.title
+  %p= @posts.content
