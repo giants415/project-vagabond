@@ -7,19 +7,18 @@
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
     %nav.top-bar{"data-topbar" => "#"}
-      %ul.title-area
-      .logo
-        %a{:href => "http://zurb.com/stickers/images/intro-foundation.png"}
-          %img{:src => "http://zurb.com/stickers/images/intro-foundation.png"}
-      %section.top-bar-section
+      %section.top-bar
         %ul.center-buttons
-          %li.divider
-        - if current_user
-          %li= link_to "Profile", user_path(current_user)
-          %li= link_to "Log Out", logout_path
-        - else
-          %li= link_to "Create Account", new_user_path
-          %li= link_to "Log In", new_session_path
+          - if current_user
+            %li.divider
+            %li= link_to "Profile", user_path(current_user)
+            %li.divider
+            %li= link_to "Log Out", logout_path
+          - else
+            %li.divider
+            %li= link_to "Create Account", new_user_path
+            %li.divider
+            %li= link_to "Log In", new_session_path
 
     =yield
 
