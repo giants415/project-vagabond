@@ -2,7 +2,7 @@ class User < ApplicationRecord
   has_secure_password
   has_many :posts, dependent: :destroy
 
-  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.][a-z]+\z/i
+  # VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.][a-z]+\z/i
 
   validates :username,
             presence: true,
@@ -10,12 +10,11 @@ class User < ApplicationRecord
             length: { minimum: 6 }
 
   validates :first_name,
-            presence: true,
-            uniqueness: true
+            presence: true
 
   validates :email,
             presence: true,
-            format: { with: VALID_EMAIL_REGEX },
+            # format: { with: VALID_EMAIL_REGEX },
             uniqueness: true,
             length: { maximum: 255 }
 
