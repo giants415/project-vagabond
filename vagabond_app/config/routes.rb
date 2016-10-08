@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: "users#index"
+  root to: "site#index"
 
   get "/users", to: "users#index", as: 'users'
   get "/users/new", to: "users#new", as: "new_user"
@@ -16,5 +16,11 @@ Rails.application.routes.draw do
   get "/posts/new", to: "posts#new", as: "new_post"
   post "/posts", to: "posts#create"
   get "/posts/:id", to: "posts#show", as: "post"
-  get "/users/:user_id/posts", to: "post_users#index", as: "user_posts"
+  get "/posts/:id/edit", to: "posts#edit", as: "edit_post"
+  patch "/posts/:id", to: "posts#update"
+
+  get '/cities', to: 'cities#index', as: 'cities'
+  get '/cities/new', to: 'cities#new', as: 'new_city'
+  post '/cities', to: 'cities#create'
+  get '/cities/:id', to: 'cities#show', as: 'city'
 end

@@ -1,0 +1,10 @@
+%h1 Create a city below!
+
+= form_for @city do |f|
+    = f.label :city_name, 'City:'
+    = f.text_field :city_name
+
+    = f.label :city_state, 'State:'
+    = f.text_field :city_state
+
+    = f.submit 'Create City!'

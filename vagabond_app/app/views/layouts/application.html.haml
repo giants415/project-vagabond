@@ -1,0 +1,38 @@
+!!!
+%html
+  %head
+    %title VagabondApp
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    %nav.top-bar{"data-topbar" => "#"}
+      %section.top-bar
+        %ul.center-buttons
+          - if current_user
+            %li.divider
+            %li= link_to "Profile", user_path(current_user)
+            %li.divider
+            %li= link_to "Log Out", logout_path
+          - else
+            %li.divider
+            %li= link_to "Create Account", new_user_path
+            %li.divider
+            %li= link_to "Log In", new_session_path
+
+    =yield
+
+    .footer
+      .row
+        .column
+          %p.slogan
+            Vagabond
+          %p.links
+            = link_to("Cities #{}")
+            = link_to("Cities #{}")
+            = link_to("Cities #{}")
+            = link_to("Cities #{}")
+            = link_to("Cities #{}")
+            = link_to("Cities #{}")
+          %p.copywrite
+            Immense Journey-81190 ©2016

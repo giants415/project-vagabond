@@ -1,22 +1,26 @@
-%h1 Join our awesome site!
+%div{:class => "row"}
+  %div{:class => "large-12 column"}
+    %h2.text-center.sign-up-title Join our awesome site!
+    = form_for @user do |f|
+      %div{:class => "card sign-up"}
+        .title Sign Up
+        = f.label :first_name, 'First Name:'
+        = f.text_field :first_name
 
-= form_for @user do |f|
-    = f.label :first_name, 'First Name:'
-    = f.text_field :first_name
+        = f.label :last_name, 'Last Name:'
+        = f.text_field :last_name
 
-    = f.label :last_name, 'Last Name:'
-    = f.text_field :last_name
+        = f.label :username, 'Username:'
+        = f.text_field :username
 
-    = f.label :username, 'Username:'
-    = f.text_field :username
+        = f.label :email, 'Email:'
+        = f.text_field :email
 
-    = f.label :email, 'Email:'
-    = f.text_field :email
+        =f.label :password, 'Password:'
+        = f.password_field :password, placeholder: "Password"
 
-    = f.password_field :password, placeholder: "Password"
-
-    = f.label :city, 'City:'
-    = f.text_field :city
+        = f.label :city, 'City:'
+        = f.text_field :city
 
 
-    = f.submit 'Join!'
+        = f.submit 'Join!'

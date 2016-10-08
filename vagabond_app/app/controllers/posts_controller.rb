@@ -14,12 +14,26 @@ class PostsController < ApplicationController
   end
 
   def show
-    @post = Post.find_by_id(params[:id])
+    @post = Post.find_by_id(post_id)
+  end
+
+  def edit
+    @post = Post.find_by_id(post_id)
+  end
+
+  def update
+    post = Post.find_by_id(post_id)
+    post.update_attributes(post_params)
+    redirect_to posts_path(post)
   end
 
 private
   def post_params
-    params.require(:post).permit(:title, :content)
+    params.require(:post).permit(:title, :content, :city_id)
+  end
+
+  def post_id
+    params[:id]
   end
 
 end

@@ -10,12 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161006235845) do
+ActiveRecord::Schema.define(version: 20161008190013) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "post_users", force: :cascade do |t|
+  create_table "cities", force: :cascade do |t|
+    t.string   "city_name"
+    t.string   "city_state"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -25,6 +27,10 @@ ActiveRecord::Schema.define(version: 20161006235845) do
     t.text     "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "user_id"
+    t.integer  "city_id"
+    t.index ["city_id"], name: "index_posts_on_city_id", using: :btree
+    t.index ["user_id"], name: "index_posts_on_user_id", using: :btree
   end
 
   create_table "users", force: :cascade do |t|
@@ -38,4 +44,6 @@ ActiveRecord::Schema.define(version: 20161006235845) do
     t.datetime "updated_at",      null: false
   end
 
+  add_foreign_key "posts", "cities"
+  add_foreign_key "posts", "users"
 end
