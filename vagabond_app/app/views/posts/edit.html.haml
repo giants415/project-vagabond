@@ -1,4 +1,3 @@
-%h1 Create a post below!
 
 = form_for @post do |f|
     = f.label :title, 'Title:'
@@ -7,7 +6,4 @@
     = f.label :content, 'Content:'
     = f.text_area :content
 
-    = f.label :city_id, 'City:'
-    = f.text_field :city_id
-
-    = f.submit 'Create Post!'
+    = f.submit 'Update Post!'

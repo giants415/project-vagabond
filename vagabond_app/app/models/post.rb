@@ -1,4 +1,11 @@
 class Post < ApplicationRecord
-  has_many :post_users, dependent: :destroy
-  has_many :users, through: :post_users
+  belongs_to :user
+  belongs_to :city
+
+    validates :title,
+      presence: true
+
+    validates :content,
+      presence: true
+
 end

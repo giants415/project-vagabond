@@ -10,12 +10,17 @@ class UsersController < ApplicationController
 
   def create
     @user = User.create(user_params)
-    login(@user)
-    redirect_to root_path
+    if @user
+      login(@user)
+      redirect_to root_path
+    else
+      redirect_to new_session_path
+    end
   end
 
   def show
     @user = User.find_by_id(user_id)
+    @posts = Post.find_by_id(user_id)
   end
 
   def edit
