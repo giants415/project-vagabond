@@ -7527,3 +7527,143 @@ Completed 200 OK in 41ms (Views: 36.2ms | ActiveRecord: 1.7ms)
 
 
   [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+Started GET "/posts" for ::1 at 2016-10-08 14:31:32 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.haml within layouts/application (8.7ms)
+Started GET "/posts" for ::1 at 2016-10-08 14:31:33 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (12.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.haml within layouts/application (13.8ms)
+Started GET "/" for ::1 at 2016-10-08 14:31:36 -0700
+Started GET "/" for ::1 at 2016-10-08 14:31:36 -0700
+Processing by SiteController#index as HTML
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (3.6ms)
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (0.1ms)
+  [1m[36mUser Load (46.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (27.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 32629ms (Views: 32552.1ms | ActiveRecord: 74.2ms)
+
+
+Completed 200 OK in 33645ms (Views: 33579.7ms | ActiveRecord: 49.0ms)
+
+
+Started GET "/posts" for ::1 at 2016-10-08 14:32:06 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (2.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.haml within layouts/application (8.6ms)
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 294ms (Views: 283.7ms | ActiveRecord: 2.7ms)
+
+
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 302ms (Views: 294.1ms | ActiveRecord: 5.9ms)
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 192ms (Views: 167.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 14:32:27 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (2.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 85ms (Views: 82.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-08 14:32:30 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (13.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 122ms (Views: 100.5ms | ActiveRecord: 4.6ms)
+
+
+Started POST "/users" for ::1 at 2016-10-08 14:32:48 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gDAp9d1jqezoBE1bV5KNG4TtdfeA7D7BZCqT9s8+ykzL5SjrWrC0xadqcrFmr6Kny/TnHJdNRtMU33CvC/FYZQ==", "user"=>{"first_name"=>"william", "last_name"=>"namen", "username"=>"wnamen", "email"=>"williamjosephnamen@gmail.com", "password"=>"[FILTERED]", "city"=>"San Francisco"}, "commit"=>"Join!"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "wnamen"], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "williamjosephnamen@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "username", "email", "password_digest", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["first_name", "william"], ["last_name", "namen"], ["username", "wnamen"], ["email", "williamjosephnamen@gmail.com"], ["password_digest", "$2a$10$3c1R2LmjaeeleMAME78xs.so9UYFyt9wGDceH//3XH/grTG0q3u0y"], ["city", "San Francisco"], ["created_at", 2016-10-08 21:32:48 UTC], ["updated_at", 2016-10-08 21:32:48 UTC]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 89ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/" for ::1 at 2016-10-08 14:32:48 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (3.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 98ms (Views: 95.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/1" for ::1 at 2016-10-08 14:32:52 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.5ms)
+
+
+  
+SyntaxError (/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:21: syntax error, unexpected ')'
+));}\n    <h3>#{_hamlout.adjus...
+ ^
+/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:22: syntax error, unexpected ')'
+));}</h3>\n    <p>#{_hamlout.a...
+ ^
+/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:23: unknown regexp option - p
+/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:23: syntax error, unexpected $undefined
+));}</p>\n    <hr>\n", 0, false);end;_...
+         ^
+/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:23: syntax error, unexpected $undefined
+));}</p>\n    <hr>\n", 0, false);end;_hamlout.pu...
+                   ^
+/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:23: unknown regexp options - dv
+/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:23: syntax error, unexpected $undefined
+...ut.push_text("  </div>\n</div>\n", -2, false);::Haml::Util.h...
+...                               ^
+/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:23: unterminated string meets end of file
+/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/users/show.html.haml:21: syntax error, unexpected ')'
+app/views/users/show.html.haml:22: syntax error, unexpected ')'
+app/views/users/show.html.haml:23: unknown regexp option - p
+app/views/users/show.html.haml:23: syntax error, unexpected $undefined
+app/views/users/show.html.haml:23: syntax error, unexpected $undefined
+app/views/users/show.html.haml:23: unknown regexp options - dv
+app/views/users/show.html.haml:23: syntax error, unexpected $undefined
+app/views/users/show.html.haml:23: unterminated string meets end of file
+app/views/users/show.html.haml:23: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.2ms)
+Started GET "/users/1" for ::1 at 2016-10-08 14:33:55 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 116ms (Views: 110.4ms | ActiveRecord: 1.2ms)
+
+
