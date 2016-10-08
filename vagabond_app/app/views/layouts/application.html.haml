@@ -6,8 +6,14 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    %nav.top-bar{:class => "nav-color", "data-options" => "sticky_on: large", "data-topbar" => "", :role => "navigation"}
-      %ul{:class => "left list-item-bar"}
+    %nav.top-bar{"data-topbar" => "#"}
+      %ul.title-area
+      .logo
+        %a{:href => "http://zurb.com/stickers/images/intro-foundation.png"}
+          %img{:src => "http://zurb.com/stickers/images/intro-foundation.png"}
+      %section.top-bar-section
+        %ul.center-buttons
+          %li.divider
         - if current_user
           %li= link_to "Profile", user_path(current_user)
           %li= link_to "Log Out", logout_path
