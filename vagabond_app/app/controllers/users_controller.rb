@@ -15,11 +15,12 @@ class UsersController < ApplicationController
       redirect_to root_path
     else
       redirect_to new_session_path
-    end 
+    end
   end
 
   def show
     @user = User.find_by_id(user_id)
+    @posts = Post.find_by_id(user_id)
   end
 
   def edit
