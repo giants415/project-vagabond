@@ -6,19 +6,26 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    %nav.top-bar{"data-topbar" => "#"}
-      %section.top-bar
-        %ul.center-buttons
-          - if current_user
-            %li.divider
-            %li= link_to "Profile", user_path(current_user)
-            %li.divider
-            %li= link_to "Log Out", logout_path
-          - else
-            %li.divider
-            %li= link_to "Create Account", new_user_path
-            %li.divider
-            %li= link_to "Log In", new_session_path
+    .title-bar{"data-hide-for" => "medium", "data-responsive-toggle" => "main-menu"}
+      %button.menu-icon{"data-toggle" => "", :type => "button"}
+        .title-bar-title Menu
+    #main-menu.top-bar
+      .top-bar-left
+        %ul.dropdown.menu{"data-dropdown-menu" => ""}
+          %li.menu-text Wander
+      .top-bar-right
+        %ul.menu{"data-responsive-menu" => "drilldown medium-dropdown"}
+          %li.has-submenu
+            %a{:href => "#"} My Wander
+            %ul.submenu.menu.vertical{"data-submenu" => ""}
+              %li
+                %a{:href => "#"} My Profile
+              %li
+                %a{:href => "#"} My Posts
+          -# %li
+          -#   %a{:href => "#"}
+          %li
+            %a{:href => "#"} Log Out
 
     =yield
 
