@@ -14,18 +14,24 @@
         %ul.dropdown.menu{"data-dropdown-menu" => ""}
           %li.menu-text Wander
       .top-bar-right
-        %ul.menu{"data-responsive-menu" => "drilldown medium-dropdown"}
-          %li.has-submenu
-            %a{:href => "#"} My Wander
-            %ul.submenu.menu.vertical{"data-submenu" => ""}
-              %li
-                %a{:href => "#"} My Profile
-              %li
-                %a{:href => "#"} My Posts
-          -# %li
-          -#   %a{:href => "#"}
-          %li
-            %a{:href => "#"} Log Out
+      -# - if logged_in?
+      -#   %ul.menu{"data-responsive-menu" => "drilldown medium-dropdown"}
+      -#     %li.has-submenu
+      -#       %a{:href => "#"} My Wander
+      -#       %ul.submenu.menu.vertical{"data-submenu" => ""}
+      -#         %li
+      -#           %a{:href => "#"} My Profile
+      -#         %li
+      -#           %a{:href => "#"} My Posts
+      -#   %li
+      -#     %a{:href => "#"} Log Out
+      -# - else
+      -#   .top-bar-right
+      -#     %ul.vertical.medium-horizontal.menu
+      -#       %li
+      -#         %a{:href => "#"} Create an Account
+      -#       %li
+      -#         %a{:href => "#"} Cities
 
     =yield
 
