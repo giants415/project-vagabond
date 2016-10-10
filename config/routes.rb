@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   get '/login', to: 'sessions#new', as: 'new_session'
   get '/logout', to: 'sessions#destroy', as: 'logout'
-  post '/sessions', to: 'sessions#create', as: 'sessions'
+  post '/sessions', to: 'sessions#create'
 
   get "cities/:city_id/posts", to: "posts#index", as: "posts"
   get "cities/:city_id/posts/new", to: "posts#new", as: "new_post"
