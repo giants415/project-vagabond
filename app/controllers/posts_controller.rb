@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
 
   def index
-    @posts = Post.all
+    @posts = Post.where(city_id: params[:city_id]).find_each
   end
 
   def new
@@ -10,7 +10,7 @@ class PostsController < ApplicationController
 
   def create
     @post = Post.create(post_params)
-    redirect_to @post
+    redirect_to posts_path
   end
 
   def show
@@ -27,9 +27,15 @@ class PostsController < ApplicationController
     redirect_to posts_path(post)
   end
 
+  def destroy
+    @post = Post.find_by_id(post_id)
+    @post.destroy
+  end
+
 private
   def post_params
-    params.require(:post).permit(:title, :content, :city_id)
+    post_info = params.require(:post).permit(:title, :content)
+    post_params = post_info.merge({city_id: params[:city_id], user_id: current_user.id})
   end
 
   def post_id
