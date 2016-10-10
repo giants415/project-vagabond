@@ -6,7 +6,6 @@ class SessionsController < ApplicationController
 
   def create
     @user = User.confirm(user_params)
-    debugger
     if @user
       login(@user)
       flash[:notice] = "Successfully logged in."
