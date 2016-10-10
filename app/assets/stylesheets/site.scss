@@ -4,11 +4,12 @@
 
 li {
   list-style: none;
-  background-color: white;
+  background-color: #8d9093;
 }
 
+
 .nav-color {
-  background-color: white;
+  background-color: #292c2f;
 }
 
 
@@ -100,6 +101,7 @@ p {
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem;
+
   p {
     &.slogan {
       color: #8d9093;
