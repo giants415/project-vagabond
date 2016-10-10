@@ -2,5 +2,8 @@
 %p= @city.city_state
 
 - if @posts
-  %h1= @posts.title
-  %p= @posts.content
+  - @posts.each do |post|
+    %h4= post.title
+    %span= post.content
+    %hr
+    %button#newPostButton.submit-button{:onclick => "location.href = '/cities/" + @city.id.to_s + "/posts/new'"} Add New Post

@@ -1,7 +1,3 @@
-- if @posts
-  %h1= @posts.title
-  %p= @posts.content
-
 .row
   .large-10.column
     .large-6.column
@@ -17,13 +13,8 @@
       = @user.city
     .large-6.column
     - if @posts
-      =@posts.each do |post|
-      %h3= post.title
-      %p= post.content
-      %hr
-
-      -# %h3 Best Brew in the Bay!
-      -# %p Banjo iceland jean shorts, vegan hella waistcoat vinyl cardigan forage shabby chic snackwave plaid tacos skateboard. Tbh fap letterpress man bun. Edison bulb hammock biodiesel coloring book, kitsch man braid fam. Next level pork belly kitsch health goth franzen roof party, cold-pressed food truck bitters marfa flexitarian flannel. Narwhal coloring book umami, bicycle rights craft beer VHS selfies pop-up hammock hot chicken meditation typewriter photo booth prism. Scenester cornhole taxidermy, blue bottle man bun twee intelligentsia echo park snackwave sustainable. Fashion axe lumbersexual vice, chicharrones master cleanse fixie ennui hashtag.
-      -# %hr
-      -# %h3 Best Brew in the Bay!
-      -# %p Banjo iceland jean shorts, vegan hella waistcoat vinyl cardigan forage shabby chic snackwave plaid tacos skateboard. Tbh fap letterpress man bun. Edison bulb hammock biodiesel coloring book, kitsch man braid fam. Next level pork belly kitsch health goth franzen roof party, cold-pressed food truck bitters marfa flexitarian flannel. Narwhal coloring book umami, bicycle rights craft beer VHS selfies pop-up hammock hot chicken meditation typewriter photo booth prism. Scenester cornhole taxidermy, blue bottle man bun twee intelligentsia echo park snackwave sustainable. Fashion axe lumbersexual vice, chicharrones master cleanse fixie ennui hashtag.
+      - @posts.each do |post|
+        %h4= post.title
+        %span= post.content
+        %button#editPostButton.submit-button{:onclick => "location.href = '/cities/" + @city.id.to_s + "/posts" + @posts.id.to_s + "/edit'"} Edit Post
+        %hr

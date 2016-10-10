@@ -21,7 +21,8 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by_id(user_id)
-    @posts = Post.find_by_id(user_id)
+    @posts = Post.where(user_id: user_id)
+    debugger
   end
 
   def edit
