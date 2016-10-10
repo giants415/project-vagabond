@@ -81,9 +81,9 @@ Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.5ms)
 
 
 Started GET "/users" for ::1 at 2016-10-06 23:04:39 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/users"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -243,15 +243,15 @@ Processing by SessionsController#new as HTML
 Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (First argument in form cannot contain nil or be empty):
     1: Login
-    2: 
+    2:
     3: = form_for @user, url: "/sessions", method: "post" do |f|
     4:   %div
     5:     = f.text_field :username, placeholder: "Username"
     6:   %div
-  
+
 app/views/sessions/new.html.haml:3:in `_app_views_sessions_new_html_haml__1637748281083845084_70144029357540'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -268,15 +268,15 @@ Processing by SessionsController#new as HTML
 Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (First argument in form cannot contain nil or be empty):
     1: Login
-    2: 
+    2:
     3: = form_for @user do |f|
     4:   %div
     5:     = f.text_field :username, placeholder: "Username"
     6:   %div
-  
+
 app/views/sessions/new.html.haml:3:in `_app_views_sessions_new_html_haml__1637748281083845084_70144062859200'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -293,15 +293,15 @@ Processing by SessionsController#new as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (First argument in form cannot contain nil or be empty):
     1: Login
-    2: 
+    2:
     3: = form_for @user do |f|
     4:   %div
     5:     = f.text_field :username, placeholder: "Username"
     6:   %div
-  
+
 app/views/sessions/new.html.haml:3:in `_app_views_sessions_new_html_haml__1637748281083845084_70144071029060'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -324,9 +324,9 @@ Processing by SessionsController#create as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
 
 
-  
+
 NoMethodError (undefined method `confirm' for #<Class:0x007f975fe7cf40>):
-  
+
 app/controllers/sessions_controller.rb:12:in `create'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -343,9 +343,9 @@ Processing by SessionsController#create as HTML
 Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.4ms)
 
 
-  
+
 BCrypt::Errors::InvalidHash (invalid hash):
-  
+
 app/models/user.rb:6:in `confirm'
 app/controllers/sessions_controller.rb:12:in `create'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -363,9 +363,9 @@ Processing by SessionsController#create as HTML
 Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms)
 
 
-  
+
 BCrypt::Errors::InvalidHash (invalid hash):
-  
+
 app/models/user.rb:6:in `confirm'
 app/controllers/sessions_controller.rb:12:in `create'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -383,9 +383,9 @@ Processing by SessionsController#create as HTML
 Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.5ms)
 
 
-  
+
 BCrypt::Errors::InvalidHash (invalid hash):
-  
+
 app/models/user.rb:6:in `confirm'
 app/controllers/sessions_controller.rb:12:in `create'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -745,9 +745,9 @@ Processing by SessionsController#new as HTML
 Completed 500 Internal Server Error in 43ms (ActiveRecord: 1.7ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:8:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___1444623103672300560_70348465461680'
 app/controllers/sessions_controller.rb:5:in `new'
@@ -767,9 +767,9 @@ Processing by SessionsController#new as HTML
 Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.5ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:8:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___1444623103672300560_70348479710640'
 app/controllers/sessions_controller.rb:5:in `new'
@@ -790,9 +790,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.5ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:8:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___1444623103672300560_70348444672740'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -812,9 +812,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 152ms (ActiveRecord: 32.7ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:8:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___1444623103672300560_70348504809500'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -835,9 +835,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 241ms (ActiveRecord: 4.3ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:8:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__4396517492657236399_70271326200920'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -895,9 +895,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 236ms (ActiveRecord: 8.2ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:8:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__4292930337253560605_70119140881480'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -917,9 +917,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 67ms (ActiveRecord: 20.7ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:8:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__4292930337253560605_70119136905420'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -939,9 +939,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:8:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__4292930337253560605_70119196088760'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -961,9 +961,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:8:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__4292930337253560605_70119140915800'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -983,9 +983,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 24ms (ActiveRecord: 2.9ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:3:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__4292930337253560605_70119146575940'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -1005,9 +1005,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.6ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:3:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__4292930337253560605_70119173090080'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -1027,9 +1027,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 29ms (ActiveRecord: 2.6ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:3:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__4292930337253560605_70119174008720'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -1049,9 +1049,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.5ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:3:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__4292930337253560605_70119149767220'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -1071,9 +1071,9 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 114ms (ActiveRecord: 31.7ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
-  
+
 app/helpers/sessions_helper.rb:3:in `current_user'
 app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__4292930337253560605_70119188513540'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -1219,9 +1219,9 @@ Processing by UsersController#create as HTML
 Completed 500 Internal Server Error in 114ms (ActiveRecord: 1.9ms)
 
 
-  
+
 NoMethodError (undefined method `login' for #<UsersController:0x007f8bcccb0e58>):
-  
+
 app/controllers/users_controller.rb:13:in `create'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -1630,14 +1630,14 @@ Processing by PostsController#new as HTML
 Completed 406 Not Acceptable in 62ms (ActiveRecord: 2.4ms)
 
 
-  
+
 ActionController::UnknownFormat (PostsController#new is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not… nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.0.0.1) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
 actionpack (5.0.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.0.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -1753,9 +1753,9 @@ Processing by PostsController#create as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 6.9ms)
 
 
-  
+
 ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"posts"} missing required keys: [:id]):
-  
+
 app/controllers/posts_controller.rb:13:in `create'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -1812,7 +1812,7 @@ Completed 302 Found in 9ms (ActiveRecord: 6.3ms)
 
 
 Started GET "/posts.3" for ::1 at 2016-10-07 00:36:02 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (2.1ms)
@@ -2161,9 +2161,9 @@ Completed 200 OK in 38ms (Views: 31.6ms | ActiveRecord: 2.4ms)
 
 
 Started GET "/postsnew" for ::1 at 2016-10-07 11:29:17 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/postsnew"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -2207,9 +2207,9 @@ Completed 200 OK in 36ms (Views: 33.0ms | ActiveRecord: 0.2ms)
 
 
 Started GET "/posts/new/1" for ::1 at 2016-10-07 11:30:09 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/posts/new/1"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -2632,9 +2632,9 @@ Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.6ms)
 
 
 Started GET "/cities" for ::1 at 2016-10-07 14:27:03 -0700
-  
+
 AbstractController::ActionNotFound (The action 'index' could not be found for CitiesController):
-  
+
 actionpack (5.0.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.0.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.0.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -2692,14 +2692,14 @@ Processing by CitiesController#index as HTML
 Completed 406 Not Acceptable in 59ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (CitiesController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not… nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.0.0.1) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
 actionpack (5.0.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.0.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -2794,14 +2794,14 @@ Processing by CitiesController#new as HTML
 Completed 406 Not Acceptable in 58ms (ActiveRecord: 1.7ms)
 
 
-  
+
 ActionController::UnknownFormat (CitiesController#new is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not… nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.0.0.1) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
 actionpack (5.0.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.0.0.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -3124,9 +3124,9 @@ Completed 200 OK in 32ms (Views: 28.4ms | ActiveRecord: 0.6ms)
 
 
 Started GET "/" for ::1 at 2016-10-07 15:05:57 -0700
-  
+
 SyntaxError (/Users/wnamen/programming/wdi/project-vagabond/vagabond_app/app/controllers/users_controller.rb:42: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/controllers/users_controller.rb:42: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3137,9 +3137,9 @@ app/controllers/users_controller.rb:42: syntax error, unexpected end-of-input, e
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.7ms)
 Started GET "/" for ::1 at 2016-10-07 15:05:59 -0700
-  
+
 SyntaxError (/Users/wnamen/programming/wdi/project-vagabond/vagabond_app/app/controllers/users_controller.rb:42: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/controllers/users_controller.rb:42: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3302,13 +3302,13 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `first_name' for nil:NilClass):
     1: = @user.first_name
     2: = @user.last_name
     3: = @user.username
     4: = @user.email
-  
+
 app/views/users/show.html.haml:1:in `_app_views_users_show_html_haml___848336027255100612_70193371772200'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3440,9 +3440,9 @@ ORDER BY c.conname
   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
 Started GET "/owners/1" for ::1 at 2016-10-07 17:21:33 -0700
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-  
+
 ActionController::RoutingError (No route matches [GET] "/owners/1"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -3531,7 +3531,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.6ms)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"index", :controller=>"posts"} missing required keys: [:user_id]):
     18:       <% else %>
     19:         <li><%= link_to "Create Account", new_user_path %></li>
@@ -3540,7 +3540,7 @@ ActionView::Template::Error (No route matches {:action=>"index", :controller=>"p
     22:       <% end %>
     23:     </ul>
     24:   </nav>
-  
+
 app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb__2582934052509499095_70328252748340'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3559,7 +3559,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.8ms)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"index", :controller=>"posts"} missing required keys: [:user_id]):
     18:       <% else %>
     19:         <li><%= link_to "Create Account", new_user_path %></li>
@@ -3568,7 +3568,7 @@ ActionView::Template::Error (No route matches {:action=>"index", :controller=>"p
     22:       <% end %>
     23:     </ul>
     24:   </nav>
-  
+
 app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb__2582934052509499095_70328253191020'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3579,11 +3579,11 @@ app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_htm
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.2ms)
 Started GET "/" for ::1 at 2016-10-07 17:31:53 -0700
-  
-ArgumentError (Invalid route name, already in use: 'posts' 
-You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+
+ArgumentError (Invalid route name, already in use: 'posts'
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here:
 http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
-  
+
 config/routes.rb:19:in `block in <top (required)>'
 config/routes.rb:1:in `<top (required)>'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -3650,11 +3650,11 @@ Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.5ms)
 
 
 Started GET "/" for ::1 at 2016-10-07 17:32:49 -0700
-  
-ArgumentError (Invalid route name, already in use: 'posts' 
-You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+
+ArgumentError (Invalid route name, already in use: 'posts'
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here:
 http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
-  
+
 config/routes.rb:19:in `block in <top (required)>'
 config/routes.rb:1:in `<top (required)>'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -3713,11 +3713,11 @@ Completed 200 OK in 56ms (Views: 53.1ms | ActiveRecord: 0.6ms)
 
 
 Started GET "/" for ::1 at 2016-10-07 17:34:41 -0700
-  
-ArgumentError (Invalid route name, already in use: 'posts' 
-You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+
+ArgumentError (Invalid route name, already in use: 'posts'
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here:
 http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
-  
+
 config/routes.rb:19:in `block in <top (required)>'
 config/routes.rb:1:in `<top (required)>'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -3906,9 +3906,9 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 76462ms (ActiveRecord: 0.4ms)
 
 
-  
+
 SystemExit (exit):
-  
+
 app/controllers/users_controller.rb:24:in `show'
 Started GET "/users/2" for ::1 at 2016-10-07 17:43:13 -0700
 Processing by UsersController#show as HTML
@@ -3921,9 +3921,9 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 7046ms (ActiveRecord: 31.7ms)
 
 
-  
+
 SystemExit (exit):
-  
+
 app/controllers/users_controller.rb:24:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3946,9 +3946,9 @@ Started GET "/users/2" for ::1 at 2016-10-07 17:43:57 -0700
 Completed 500 Internal Server Error in 70445ms (ActiveRecord: 118.2ms)
 
 
-  
+
 SystemExit (exit):
-  
+
 app/controllers/users_controller.rb:24:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3971,14 +3971,14 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 67ms (ActiveRecord: 6.1ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
     5: = @user.city
-    6: 
-    7: 
+    6:
+    7:
     8: %h1= @post.title
     9: %p= @post.content
-  
+
 app/views/users/show.html.haml:8:in `_app_views_users_show_html_haml___3919077833172343235_70317394138260'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3998,14 +3998,14 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
     5: = @user.city
-    6: 
-    7: 
+    6:
+    7:
     8: %h1= @post.title
     9: %p= @post.content
-  
+
 app/views/users/show.html.haml:8:in `_app_views_users_show_html_haml___3919077833172343235_70317393822920'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4025,14 +4025,14 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
     5: = @user.city
-    6: 
-    7: 
+    6:
+    7:
     8: %h1= @post.title
     9: %p= @post.content
-  
+
 app/views/users/show.html.haml:8:in `_app_views_users_show_html_haml___3919077833172343235_70317379799660'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4052,14 +4052,14 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
     5: = @user.city
-    6: 
-    7: 
+    6:
+    7:
     8: %h1= @post.title
     9: %p= @post.content
-  
+
 app/views/users/show.html.haml:8:in `_app_views_users_show_html_haml___3919077833172343235_70317362856240'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4079,14 +4079,14 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
     5: = @user.city
-    6: 
-    7: 
+    6:
+    7:
     8: %h1= @post.title
     9: %p= @post.content
-  
+
 app/views/users/show.html.haml:8:in `_app_views_users_show_html_haml___3919077833172343235_70317378196780'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4106,14 +4106,14 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.7ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
     5: = @user.city
-    6: 
-    7: 
+    6:
+    7:
     8: %h1= @posts.title
     9: %p= @posts.content
-  
+
 app/views/users/show.html.haml:8:in `_app_views_users_show_html_haml___3919077833172343235_70317373052000'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4133,14 +4133,14 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.3ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
     5: = @user.city
-    6: 
-    7: 
+    6:
+    7:
     8: %h1= @posts.title
     9: %p= @posts.content
-  
+
 app/views/users/show.html.haml:8:in `_app_views_users_show_html_haml___3919077833172343235_70317380193800'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4182,9 +4182,9 @@ Completed 200 OK in 59ms (Views: 47.5ms | ActiveRecord: 2.5ms)
 
 
 Started GET "/1" for ::1 at 2016-10-07 18:00:22 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/1"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -4330,14 +4330,14 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.7ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
     5: = @user.city
-    6: 
-    7: 
+    6:
+    7:
     8: %h1= @posts.title
     9: %p= @posts.content
-  
+
 app/views/users/show.html.haml:8:in `_app_views_users_show_html_haml___3919077833172343235_70317423189720'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4358,15 +4358,15 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 60ms (ActiveRecord: 5.0ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
      5: = @user.city
-     6: 
+     6:
      7: if @posts
      8: %h1= @posts.title
      9: %p= @posts.content
     10: end
-  
+
 app/views/users/show.html.haml:8:in `_app_views_users_show_html_haml__3818416574765076778_70274161934700'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4386,15 +4386,15 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
      5: = @user.city
-     6: 
+     6:
      7: if @posts
      8: %h1= @posts.title
      9: %p= @posts.content
     10: end
-  
+
 app/views/users/show.html.haml:8:in `_app_views_users_show_html_haml__3818416574765076778_70274181570220'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4414,12 +4414,12 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.5ms)
 
 
-  
+
 SyntaxError (/Users/wnamen/programming/wdi/project-vagabond/vagabond_app/app/views/users/show.html.haml:10: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/wnamen/programming/wdi/project-vagabond/vagabond_app/app/views/users/show.html.haml:13: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/users/show.html.haml:10: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/users/show.html.haml:13: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -4440,7 +4440,7 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.4ms)
 
 
-  
+
 SyntaxError (/Users/wnamen/programming/wdi/project-vagabond/vagabond_app/app/views/users/show.html.haml:7: syntax error, unexpected '=', expecting keyword_end
 =if @posts
  ^
@@ -4448,7 +4448,7 @@ SyntaxError (/Users/wnamen/programming/wdi/project-vagabond/vagabond_app/app/vie
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/wnamen/programming/wdi/project-vagabond/vagabond_app/app/views/users/show.html.haml:13: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/users/show.html.haml:7: syntax error, unexpected '=', expecting keyword_end
 app/views/users/show.html.haml:10: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/users/show.html.haml:13: syntax error, unexpected end-of-input, expecting keyword_end
@@ -4470,7 +4470,7 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.4ms)
 
 
-  
+
 SyntaxError (/Users/wnamen/programming/wdi/project-vagabond/vagabond_app/app/views/users/show.html.haml:7: syntax error, unexpected '=', expecting keyword_end
 =if @posts
  ^
@@ -4478,7 +4478,7 @@ SyntaxError (/Users/wnamen/programming/wdi/project-vagabond/vagabond_app/app/vie
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/wnamen/programming/wdi/project-vagabond/vagabond_app/app/views/users/show.html.haml:13: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/users/show.html.haml:7: syntax error, unexpected '=', expecting keyword_end
 app/views/users/show.html.haml:10: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/users/show.html.haml:13: syntax error, unexpected end-of-input, expecting keyword_end
@@ -4604,9 +4604,9 @@ Completed 200 OK in 52ms (Views: 42.4ms | ActiveRecord: 1.5ms)
 
 
 Started GET "/users/4/posts" for ::1 at 2016-10-07 18:23:25 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/users/4/posts"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -4680,16 +4680,16 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 23ms (ActiveRecord: 1.3ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `count' for nil:NilClass):
     4: = @user.email
     5: = @user.city
-    6: 
+    6:
     7: = @posts.count
-    8: 
+    8:
     9: - if @posts
    10:   %h1= @posts.title
-  
+
 app/views/users/show.html.haml:7:in `_app_views_users_show_html_haml__1072022466855041739_70105471811800'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4719,11 +4719,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 22ms (ActiveRecord: 2.3ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105471879940'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4789,9 +4789,9 @@ Completed 200 OK in 47ms (Views: 41.3ms | ActiveRecord: 2.5ms)
 
 
 Started GET "/citiessanfrancisco" for ::1 at 2016-10-07 18:29:08 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/citiessanfrancisco"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -4827,9 +4827,9 @@ puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.7ms)
 Started GET "/citiessan-francisco" for ::1 at 2016-10-07 18:29:11 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/citiessan-francisco"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -4871,9 +4871,9 @@ Processing by CitiesController#show as HTML
 Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find City with 'id'=san-francisco):
-  
+
 app/controllers/cities_controller.rb:16:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4890,9 +4890,9 @@ Processing by CitiesController#show as HTML
 Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find City with 'id'=sanfrancisco):
-  
+
 app/controllers/cities_controller.rb:16:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4909,9 +4909,9 @@ Processing by CitiesController#show as HTML
 Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find City with 'id'=san francisco):
-  
+
 app/controllers/cities_controller.rb:16:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4928,12 +4928,12 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.9ms)
 
 
-  
+
 ActiveRecord::StatementInvalid (PG::SyntaxError: ERROR:  syntax error at or near "francisco"
 LINE 1: SELECT  "cities".* FROM "cities" WHERE (san francisco) LIMIT...
                                                     ^
 : SELECT  "cities".* FROM "cities" WHERE (san francisco) LIMIT $1):
-  
+
 app/controllers/cities_controller.rb:16:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4950,12 +4950,12 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 8ms (ActiveRecord: 6.9ms)
 
 
-  
+
 ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column "sanfrancisco" does not exist
 LINE 1: SELECT  "cities".* FROM "cities" WHERE (sanfrancisco) LIMIT ...
                                                 ^
 : SELECT  "cities".* FROM "cities" WHERE (sanfrancisco) LIMIT $1):
-  
+
 app/controllers/cities_controller.rb:16:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4972,12 +4972,12 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 9ms (ActiveRecord: 7.1ms)
 
 
-  
+
 ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column "san" does not exist
 LINE 1: SELECT  "cities".* FROM "cities" WHERE (san&francisco) LIMIT...
                                                 ^
 : SELECT  "cities".* FROM "cities" WHERE (san&francisco) LIMIT $1):
-  
+
 app/controllers/cities_controller.rb:16:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4994,12 +4994,12 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.5ms)
 
 
-  
+
 ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column "san" does not exist
 LINE 1: SELECT  "cities".* FROM "cities" WHERE (san-francisco) LIMIT...
                                                 ^
 : SELECT  "cities".* FROM "cities" WHERE (san-francisco) LIMIT $1):
-  
+
 app/controllers/cities_controller.rb:16:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5016,12 +5016,12 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.5ms)
 
 
-  
+
 ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column "sanfrancisco" does not exist
 LINE 1: SELECT  "cities".* FROM "cities" WHERE (sanfrancisco) LIMIT ...
                                                 ^
 : SELECT  "cities".* FROM "cities" WHERE (sanfrancisco) LIMIT $1):
-  
+
 app/controllers/cities_controller.rb:16:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5065,12 +5065,12 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.5ms)
 
 
-  
+
 ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column "dallas" does not exist
 LINE 1: SELECT  "cities".* FROM "cities" WHERE (dallas) LIMIT $1
                                                 ^
 : SELECT  "cities".* FROM "cities" WHERE (dallas) LIMIT $1):
-  
+
 app/controllers/cities_controller.rb:16:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5087,9 +5087,9 @@ Processing by CitiesController#show as HTML
 Completed 404 Not Found in 4ms (ActiveRecord: 0.2ms)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find City with 'id'=dallas):
-  
+
 app/controllers/cities_controller.rb:16:in `show'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5108,11 +5108,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105506965020'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5140,11 +5140,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105503707480'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5163,11 +5163,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.5ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105495629140'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5186,11 +5186,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105484987000'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5209,11 +5209,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.2ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105493701120'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5232,11 +5232,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105502455820'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5255,12 +5255,12 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.2ms)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `city_name' for #<#<Class:0x007f856badc3a0>:0x007f856b4beba8>
 Did you mean?  city_path):
     1: %h1= city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105503759060'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5279,11 +5279,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_path' for nil:NilClass):
     1: %h1= @city.city_path
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105485017960'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5302,11 +5302,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_state' for nil:NilClass):
     1: -# %h1= @city.city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:2:in `_app_views_cities_show_html_haml__1346640352708734996_70105436082280'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5327,11 +5327,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 32ms (ActiveRecord: 2.6ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105505201460'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5350,11 +5350,11 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1346640352708734996_70105439579660'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5512,11 +5512,11 @@ Processing by PostsController#show as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.8ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `title' for nil:NilClass):
     1: %h1= @post.title
     2: %p= @post.content
-  
+
 app/views/posts/show.html.haml:1:in `_app_views_posts_show_html_haml___1907441675072742135_70105493559660'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5527,9 +5527,9 @@ app/views/posts/show.html.haml:1:in `_app_views_posts_show_html_haml___190744167
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.1ms)
 Started GET "/posts/1/edit" for ::1 at 2016-10-08 12:12:42 -0700
-  
+
 AbstractController::ActionNotFound (The action 'edit' could not be found for PostsController):
-  
+
 actionpack (5.0.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.0.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.0.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -5663,7 +5663,7 @@ Completed 302 Found in 11ms (ActiveRecord: 1.2ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:18:55 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (2.2ms)
@@ -5702,9 +5702,9 @@ Processing by PostsController#update as HTML
 Completed 500 Internal Server Error in 525088ms (ActiveRecord: 10.3ms)
 
 
-  
+
 SystemExit (exit):
-  
+
 app/controllers/posts_controller.rb:28:in `update'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -5725,9 +5725,9 @@ Processing by PostsController#update as HTML
 Completed 500 Internal Server Error in 36429ms (ActiveRecord: 7.1ms)
 
 
-  
+
 SystemExit (exit):
-  
+
 app/controllers/posts_controller.rb:28:in `update'
 Started GET "/" for ::1 at 2016-10-08 12:30:10 -0700
 Started GET "/" for ::1 at 2016-10-08 12:30:10 -0700
@@ -5806,9 +5806,9 @@ Completed 200 OK in 57ms (Views: 49.6ms | ActiveRecord: 1.0ms)
 
 
 Started GET "/users/4/posts" for ::1 at 2016-10-08 12:30:57 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/users/4/posts"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -5875,7 +5875,7 @@ Completed 302 Found in 16ms (ActiveRecord: 1.0ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:31:23 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (1.8ms)
@@ -5905,7 +5905,7 @@ Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:31:37 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (2.0ms)
@@ -5914,9 +5914,9 @@ Completed 200 OK in 53ms (Views: 37.6ms | ActiveRecord: 0.5ms)
 
 
 Started GET "/%20users" for ::1 at 2016-10-08 12:32:20 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/%20users"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -5993,9 +5993,9 @@ Completed 200 OK in 27ms (Views: 23.5ms | ActiveRecord: 0.7ms)
 
 
 Started GET "/users/4/EDIT" for ::1 at 2016-10-08 12:33:02 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/users/4/EDIT"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -6084,9 +6084,9 @@ Processing by PostsController#update as HTML
 Completed 500 Internal Server Error in 153224ms (ActiveRecord: 1.0ms)
 
 
-  
+
 SystemExit (exit):
-  
+
 app/controllers/posts_controller.rb:28:in `update'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -6106,9 +6106,9 @@ Processing by PostsController#update as HTML
 Completed 500 Internal Server Error in 5440ms (ActiveRecord: 1.9ms)
 
 
-  
+
 SystemExit (exit):
-  
+
 app/controllers/posts_controller.rb:28:in `update'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -6130,7 +6130,7 @@ Completed 302 Found in 509ms (ActiveRecord: 2.0ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:39:03 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (34.0ms)
@@ -6170,7 +6170,7 @@ Completed 302 Found in 103ms (ActiveRecord: 2.0ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:39:20 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (20.8ms)
@@ -6179,7 +6179,7 @@ Completed 200 OK in 572ms (Views: 538.1ms | ActiveRecord: 1.1ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:39:23 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (20.4ms)
@@ -6188,7 +6188,7 @@ Completed 200 OK in 541ms (Views: 502.9ms | ActiveRecord: 1.0ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:39:25 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (20.6ms)
@@ -6197,7 +6197,7 @@ Completed 200 OK in 562ms (Views: 522.8ms | ActiveRecord: 1.3ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:39:54 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (78.0ms)
@@ -6227,7 +6227,7 @@ Completed 302 Found in 159ms (ActiveRecord: 2.4ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:40:07 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (23.0ms)
@@ -6236,7 +6236,7 @@ Completed 200 OK in 575ms (Views: 545.7ms | ActiveRecord: 1.2ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:41:46 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (84.7ms)
@@ -6245,9 +6245,9 @@ Completed 200 OK in 787ms (Views: 714.8ms | ActiveRecord: 1.2ms)
 
 
 Started GET "/posts.1/edit" for ::1 at 2016-10-08 12:41:53 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/posts.1/edit"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -6283,7 +6283,7 @@ puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.1ms)
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (334.5ms)
 Started GET "/posts.1" for ::1 at 2016-10-08 12:42:32 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (96.4ms)
@@ -6292,9 +6292,9 @@ Completed 200 OK in 822ms (Views: 749.3ms | ActiveRecord: 1.4ms)
 
 
 Started GET "/posts.1/edit" for ::1 at 2016-10-08 12:42:36 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/posts.1/edit"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -6330,7 +6330,7 @@ puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.1ms)
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (330.4ms)
 Started GET "/posts.1" for ::1 at 2016-10-08 12:42:40 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (31.8ms)
@@ -6339,9 +6339,9 @@ Completed 200 OK in 586ms (Views: 553.0ms | ActiveRecord: 1.1ms)
 
 
 Started GET "/posts.1/edit" for ::1 at 2016-10-08 12:42:44 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/posts.1/edit"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -6377,7 +6377,7 @@ puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.5ms)
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (324.1ms)
 Started GET "/posts.1" for ::1 at 2016-10-08 12:43:13 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (83.7ms)
@@ -6386,9 +6386,9 @@ Completed 200 OK in 871ms (Views: 777.8ms | ActiveRecord: 13.2ms)
 
 
 Started GET "/posts.1/edit" for ::1 at 2016-10-08 12:43:18 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/posts.1/edit"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -6425,7 +6425,7 @@ puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendered /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (317.1ms)
 Started GET "/posts.1" for ::1 at 2016-10-08 12:43:39 -0700
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (13.8ms)
@@ -6434,9 +6434,9 @@ Completed 200 OK in 374ms (Views: 324.7ms | ActiveRecord: 7.5ms)
 
 
 Started GET "/posts.1/edit" for ::1 at 2016-10-08 12:43:42 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/posts.1/edit"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -6493,7 +6493,7 @@ Completed 302 Found in 18ms (ActiveRecord: 1.5ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:44:17 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (2.0ms)
@@ -6502,7 +6502,7 @@ Completed 200 OK in 47ms (Views: 32.9ms | ActiveRecord: 0.6ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:44:18 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (2.4ms)
@@ -6542,7 +6542,7 @@ Completed 302 Found in 13ms (ActiveRecord: 1.0ms)
 
 
 Started GET "/posts.1" for ::1 at 2016-10-08 12:44:50 -0700
-Processing by PostsController#index as 
+Processing by PostsController#index as
   Rendering posts/index.html.haml within layouts/application
   [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.haml within layouts/application (1.9ms)
@@ -7121,16 +7121,16 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 45ms (ActiveRecord: 4.0ms)
 
 
-  
+
 ActionView::Template::Error (Inconsistent indentation: 6 spaces used for indentation, but the rest of the document was indented using 4 spaces.):
      7:     = f.label :content, 'Content:'
      8:     = f.text_area :content
-     9: 
+     9:
     10:       = f.label :city_param, 'City Param:'
     11:       = f.text_field :city_param
-    12: 
+    12:
     13:     = f.submit 'Create Post!'
-  
+
 app/views/posts/new.html.haml:10
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -7147,17 +7147,17 @@ Processing by PostsController#new as HTML
 Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_param' for #<Post:0x007fa121d15a28>
 Did you mean?  city
                to_param):
      8:     = f.text_area :content
-     9: 
+     9:
     10:     = f.label :city_param, 'City:'
     11:     = f.text_field :city_param
-    12: 
+    12:
     13:     = f.submit 'Create Post!'
-  
+
 app/views/posts/new.html.haml:11:in `block in _app_views_posts_new_html_haml__2628972691586274756_70165016901300'
 app/views/posts/new.html.haml:3:in `_app_views_posts_new_html_haml__2628972691586274756_70165016901300'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -7290,9 +7290,9 @@ Processing by PostsController#create as HTML
 Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActiveRecord::AssociationTypeMismatch (City(#70165066615620) expected, got String(#70165018878060)):
-  
+
 app/controllers/posts_controller.rb:12:in `create'
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/wnamen/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -7410,9 +7410,9 @@ Completed 200 OK in 41ms (Views: 38.0ms | ActiveRecord: 1.3ms)
 
 
 Started GET "//new" for ::1 at 2016-10-08 13:18:45 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/new"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -7618,7 +7618,7 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.5ms)
 
 
-  
+
 SyntaxError (/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:21: syntax error, unexpected ')'
 ));}\n    <h3>#{_hamlout.adjus...
  ^
@@ -7638,7 +7638,7 @@ SyntaxError (/Users/wnamen/programming/wdi/project-vagabond/app/views/users/show
 ...                               ^
 /Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:23: unterminated string meets end of file
 /Users/wnamen/programming/wdi/project-vagabond/app/views/users/show.html.haml:23: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/users/show.html.haml:21: syntax error, unexpected ')'
 app/views/users/show.html.haml:22: syntax error, unexpected ')'
 app/views/users/show.html.haml:23: unknown regexp option - p
@@ -7665,5 +7665,264 @@ Processing by UsersController#show as HTML
   Rendering users/show.html.haml within layouts/application
   Rendered users/show.html.haml within layouts/application (2.4ms)
 Completed 200 OK in 116ms (Views: 110.4ms | ActiveRecord: 1.2ms)
+Started GET "/" for ::1 at 2016-10-08 15:26:52 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rails db:migrate RAILS_ENV=development
+
+):
+
+activerecord (5.0.0.1) lib/active_record/migration.rb:572:in `check_pending!'
+activerecord (5.0.0.1) lib/active_record/migration.rb:548:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (114.9ms)
+  [1m[35m (20.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6915571527851614005);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCities (20161007212116)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (201.8ms)[0m  [1m[35mCREATE TABLE "cities" ("id" serial primary key, "city_name" character varying, "city_state" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (16.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161007212116"]]
+  [1m[35m (72.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddUserToRefToPosts (20161007215324)
+  [1m[35m (19.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (79.4ms)[0m  [1m[35mALTER TABLE "posts" ADD "user_id" integer[0m
+  [1m[35m (11.6ms)[0m  [1m[35mCREATE  INDEX  "index_posts_on_user_id" ON "posts"  ("user_id")[0m
+  [1m[35m (88.3ms)[0m  [1m[35mALTER TABLE "posts" ADD CONSTRAINT "fk_rails_5b5ddfd518"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161007215324"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddCityRefToPosts (20161008190013)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "posts" ADD "city_id" integer[0m
+  [1m[35m (19.3ms)[0m  [1m[35mCREATE  INDEX  "index_posts_on_city_id" ON "posts"  ("city_id")[0m
+  [1m[35m (1.7ms)[0m  [1m[35mALTER TABLE "posts" ADD CONSTRAINT "fk_rails_3e73622a21"
+FOREIGN KEY ("city_id")
+  REFERENCES "cities" ("id")
+[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161008190013"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (17.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6915571527851614005)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'cities'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'post_users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+Started GET "/" for ::1 at 2016-10-08 15:27:55 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (4.9ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 40065ms (Views: 40037.2ms | ActiveRecord: 2.4ms)
 
 
+Started GET "/" for ::1 at 2016-10-10 08:47:01 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (403.7ms)
+  [1m[36mUser Load (59.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 5078ms (Views: 4750.3ms | ActiveRecord: 59.9ms)
+
+
+Started GET "/posts" for ::1 at 2016-10-10 08:49:02 -0700
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.haml within layouts/application
+  [1m[36mPost Load (186.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.haml within layouts/application (391.9ms)
+  [1m[36mUser Load (30.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 2110ms (Views: 1137.6ms | ActiveRecord: 257.0ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 08:57:49 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (67.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (74.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 1136ms (Views: 947.4ms | ActiveRecord: 71.9ms)
+
+
+Started GET "/cities/:id" for ::1 at 2016-10-10 08:58:48 -0700
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>":id"}
+  [1m[36mCity Load (32.3ms)[0m  [1m[34mSELECT  "cities".* FROM "cities" WHERE "cities"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  Rendering cities/show.html.haml within layouts/application
+  Rendered cities/show.html.haml within layouts/application (88.6ms)
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 32.9ms)
+
+
+
+ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
+    1: %h1= @city.city_name
+    2: %p= @city.city_state
+    3:
+    4: - if @posts
+
+app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml__1525024841576948441_70104925585080'
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (38.2ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.7ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (182.9ms)
+Started GET "/cities" for ::1 at 2016-10-10 10:19:14 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (131.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (157.3ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 846ms (Views: 709.0ms | ActiveRecord: 132.1ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 10:19:30 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (1.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 201ms (Views: 196.8ms | ActiveRecord: 1.8ms)
+
+
+  [1m[36mCity Load (0.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+Started GET "/cities" for ::1 at 2016-10-10 10:28:59 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (28.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (65.2ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 1172ms (Views: 1130.2ms | ActiveRecord: 29.6ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 10:29:05 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (63.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 702ms (Views: 698.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 10:30:59 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (57.0ms)
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 370ms (Views: 335.0ms | ActiveRecord: 32.5ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 10:32:27 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (34.8ms)
+  [1m[36mUser Load (83.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 311ms (Views: 224.7ms | ActiveRecord: 83.1ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 10:32:51 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (38.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 173ms (Views: 170.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 10:33:11 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (4.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 204ms (Views: 200.5ms | ActiveRecord: 0.5ms)
