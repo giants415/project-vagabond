@@ -8223,7 +8223,6 @@ JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
 JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
 JOIN pg_namespace t3 ON c.connamespace = t3.oid
 WHERE c.contype = 'f'
-<<<<<<< HEAD
   AND t1.relname = 'post_users'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
@@ -8236,17 +8235,12 @@ JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
 JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
 JOIN pg_namespace t3 ON c.connamespace = t3.oid
 WHERE c.contype = 'f'
-=======
->>>>>>> development
   AND t1.relname = 'posts'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
-<<<<<<< HEAD
   [1m[35m (1.7ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
-=======
   [1m[35m (1.6ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
->>>>>>> development
 FROM pg_constraint c
 JOIN pg_class t1 ON c.conrelid = t1.oid
 JOIN pg_class t2 ON c.confrelid = t2.oid
@@ -8258,7 +8252,6 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
-<<<<<<< HEAD
 Started GET "/" for ::1 at 2016-10-08 15:27:55 -0700
   [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by SiteController#index as HTML
@@ -8386,7 +8379,6 @@ Processing by SiteController#index as HTML
   Rendered site/index.html.haml within layouts/application (4.6ms)
   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
 Completed 200 OK in 204ms (Views: 200.5ms | ActiveRecord: 0.5ms)
-=======
 Started GET "/" for ::1 at 2016-10-08 15:04:55 -0700
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by SiteController#index as HTML
@@ -11599,14 +11591,13 @@ Processing by CitiesController#show as HTML
 Completed 200 OK in 117ms (Views: 113.7ms | ActiveRecord: 0.8ms)
 
 
->>>>>>> development
 Started GET "/" for ::1 at 2016-10-10 11:04:17 -0700
-  
+
 PG::ConnectionBad (could not connect to server: No such file or directory
 	Is the server running locally and accepting
 	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
 ):
-  
+
 activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `initialize'
 activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `new'
 activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
@@ -11776,13 +11767,13 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 28ms (ActiveRecord: 5.7ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-    3: 
+    3:
     4: - if @posts
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml___529554724936702177_70215341740520'
   Rendering /Users/Creative-Flight/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/Creative-Flight/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -11810,13 +11801,13 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.2ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `city_name' for nil:NilClass):
     1: %h1= @city.city_name
     2: %p= @city.city_state
-    3: 
+    3:
     4: - if @posts
-  
+
 app/views/cities/show.html.haml:1:in `_app_views_cities_show_html_haml___529554724936702177_70215321340620'
   Rendering /Users/Creative-Flight/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/Creative-Flight/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -11865,9 +11856,9 @@ Completed 200 OK in 92ms (Views: 87.6ms | ActiveRecord: 1.5ms)
 
 
 Started GET "/cities/1/new" for ::1 at 2016-10-10 11:06:27 -0700
-  
+
 ActionController::RoutingError (No route matches [GET] "/cities/1/new"):
-  
+
 actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
 web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -11969,9 +11960,9 @@ Processing by PostsController#create as HTML
 Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.5ms)
 
 
-  
+
 NoMethodError (undefined method `id' for nil:NilClass):
-  
+
 app/controllers/posts_controller.rb:38:in `post_params'
 app/controllers/posts_controller.rb:12:in `create'
   Rendering /Users/Creative-Flight/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -12129,13 +12120,13 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 17ms (ActiveRecord: 2.3ms)
 
 
-  
+
 ActionView::Template::Error (no implicit conversion of nil into String):
     6:     %h4= post.title
     7:     %span= post.content
     8:     %hr
     9:     %button#newPostButton.submit-button{:onclick => "location.href = '/cities/'" + params[:city_id] + "'/posts/new'"} Add New Post
-  
+
 app/views/cities/show.html.haml:9:in `+'
 app/views/cities/show.html.haml:9:in `block in _app_views_cities_show_html_haml___529554724936702177_70215346144560'
 app/views/cities/show.html.haml:5:in `_app_views_cities_show_html_haml___529554724936702177_70215346144560'
@@ -12166,13 +12157,13 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.1ms)
 
 
-  
+
 ActionView::Template::Error (no implicit conversion of nil into String):
     6:     %h4= post.title
     7:     %span= post.content
     8:     %hr
     9:     %button#newPostButton.submit-button{:onclick => "location.href = '/cities/'" + params[:city_id] + "'/posts/new'"} Add New Post
-  
+
 app/views/cities/show.html.haml:9:in `+'
 app/views/cities/show.html.haml:9:in `block in _app_views_cities_show_html_haml___529554724936702177_70215345581560'
 app/views/cities/show.html.haml:5:in `_app_views_cities_show_html_haml___529554724936702177_70215345581560'
@@ -12194,13 +12185,13 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 75ms (ActiveRecord: 17.9ms)
 
 
-  
+
 ActionView::Template::Error (no implicit conversion of nil into String):
     6:     %h4= post.title
     7:     %span= post.content
     8:     %hr
     9:     %button#newPostButton.submit-button{:onclick => "location.href = '/cities/'" + params[:city_id] + "'/posts/new'"} Add New Post
-  
+
 app/views/cities/show.html.haml:9:in `+'
 app/views/cities/show.html.haml:9:in `block in _app_views_cities_show_html_haml___529554724936702177_70215342360320'
 app/views/cities/show.html.haml:5:in `_app_views_cities_show_html_haml___529554724936702177_70215342360320'
@@ -12222,13 +12213,13 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.7ms)
 
 
-  
+
 ActionView::Template::Error (no implicit conversion of City into String):
     6:     %h4= post.title
     7:     %span= post.content
     8:     %hr
     9:     %button#newPostButton.submit-button{:onclick => "location.href = '/cities/'" + @city + "'/posts/new'"} Add New Post
-  
+
 app/views/cities/show.html.haml:9:in `+'
 app/views/cities/show.html.haml:9:in `block in _app_views_cities_show_html_haml___529554724936702177_70215278299500'
 app/views/cities/show.html.haml:5:in `_app_views_cities_show_html_haml___529554724936702177_70215278299500'
@@ -12248,9 +12239,9 @@ Started GET "/cities/1" for ::1 at 2016-10-10 11:26:17 -0700
 Completed 500 Internal Server Error in 77469ms (ActiveRecord: 4.9ms)
 
 
-  
+
 SystemExit (exit):
-  
+
 app/controllers/cities_controller.rb:18:in `show'
   Rendering /Users/Creative-Flight/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/Creative-Flight/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -12275,7 +12266,7 @@ Processing by CitiesController#show as HTML
 Completed 500 Internal Server Error in 364ms (ActiveRecord: 39.6ms)
 
 
-  
+
 ActionView::Template::Error (no implicit conversion of Fixnum into String):
   Rendered cities/show.html.haml within layouts/application (117.4ms)
     6:     %h4= post.title
@@ -12283,19 +12274,19 @@ Completed 500 Internal Server Error in 333ms (ActiveRecord: 124.3ms)
 
 
     7:     %span= post.content
-  
+
     8:     %hr
 ActionView::Template::Error (no implicit conversion of Fixnum into String):
     9:     %button#newPostButton.submit-button{:onclick => "location.href = '/cities/'" + @city.id + "'/posts/new'"} Add New Post
     6:     %h4= post.title
-  
+
     7:     %span= post.content
 app/views/cities/show.html.haml:9:in `+'
     8:     %hr
 app/views/cities/show.html.haml:9:in `block in _app_views_cities_show_html_haml___529554724936702177_70215354400820'
     9:     %button#newPostButton.submit-button{:onclick => "location.href = '/cities/'" + @city.id + "'/posts/new'"} Add New Post
 app/views/cities/show.html.haml:5:in `_app_views_cities_show_html_haml___529554724936702177_70215354400820'
-  
+
 app/views/cities/show.html.haml:9:in `+'
 app/views/cities/show.html.haml:9:in `block in _app_views_cities_show_html_haml___529554724936702177_70215354400820'
 app/views/cities/show.html.haml:5:in `_app_views_cities_show_html_haml___529554724936702177_70215354400820'
@@ -12388,14 +12379,14 @@ Processing by UsersController#show as HTML
 Completed 500 Internal Server Error in 180ms (ActiveRecord: 2.0ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `id' for nil:NilClass):
     16:       - @posts.each do |post|
     17:         %h4= post.title
     18:         %span= post.content
     19:         %button#editPostButton.submit-button{:onclick => "location.href = '/cities/" + @city.id.to_s + "/posts" + @posts.id.to_s + "/edit'"} Edit Post
     20:         %hr
-  
+
 app/views/users/show.html.haml:19:in `block in _app_views_users_show_html_haml___3539086906682015033_70215347633560'
 app/views/users/show.html.haml:16:in `_app_views_users_show_html_haml___3539086906682015033_70215347633560'
   Rendering /Users/Creative-Flight/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
