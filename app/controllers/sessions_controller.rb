@@ -1,5 +1,4 @@
 class SessionsController < ApplicationController
-include SessionsHelper
 
   def new
     @user = User.new
@@ -7,6 +6,7 @@ include SessionsHelper
 
   def create
     @user = User.confirm(user_params)
+    debugger
     if @user
       login(@user)
       flash[:notice] = "Successfully logged in."
