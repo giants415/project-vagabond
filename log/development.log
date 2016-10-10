@@ -15373,3 +15373,43 @@ Completed 200 OK in 71ms (Views: 69.3ms | ActiveRecord: 0.3ms)
 
 
 >>>>>>> andrew_dev
+Started GET "/" for ::1 at 2016-10-10 12:02:21 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (5.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (5.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 1141ms (Views: 1117.2ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 12:06:57 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (4.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 859ms (Views: 842.5ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/logout" for ::1 at 2016-10-10 12:07:03 -0700
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 12:07:03 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (3.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 119ms (Views: 115.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for ::1 at 2016-10-10 12:07:04 -0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.haml within layouts/application
+  Rendered sessions/new.html.haml within layouts/application (17.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 146ms (Views: 140.4ms | ActiveRecord: 0.4ms)
+
+
