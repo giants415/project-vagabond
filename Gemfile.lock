@@ -202,8 +202,8 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
   coffee-rails (~> 4.2)
-  ffaker
   compass
+  ffaker
   foundation-rails
   haml (~> 4.0.7)
   haml-rails
