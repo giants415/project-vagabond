@@ -35,9 +35,10 @@ li.menu-text{
   color: black;
   text-align: center;
   margin-top: 12%;
-  letter-spacing: 90px;
+  letter-spacing: 75px;
   font-family: $font-stack;
   font-size: 140px;
+  font-weight: bolder;
 }
 
 .parallax-background {
@@ -49,7 +50,7 @@ li.menu-text{
   background-size: cover;
   position: fixed;
   width: 100%;
-  opacity: .75;
+  opacity: .85;
 }
 
 .parallax-content {
@@ -87,6 +88,11 @@ p {
   img {
     border-radius: 2px 2px 0 0;
   }
+}
+
+.frontpageImg {
+  max-width: 360px;
+  max-height: 240px;
 }
 
 
