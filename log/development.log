@@ -25415,3 +25415,42 @@ Processing by SiteController#index as HTML
 Completed 200 OK in 106ms (Views: 102.1ms | ActiveRecord: 1.0ms)
 
 
+Started GET "/" for ::1 at 2016-10-10 22:59:17 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (4.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 200 OK in 31636ms (Views: 31620.1ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 23:00:13 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (2.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 200 OK in 121ms (Views: 116.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cities/2" for ::1 at 2016-10-10 23:00:16 -0700
+Processing by CitiesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCity Load (1.8ms)[0m  [1m[34mSELECT  "cities".* FROM "cities" WHERE "cities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering cities/show.html.haml within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."city_id" = $1[0m  [["city_id", 2]]
+  Rendered cities/show.html.haml within layouts/application (8.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 200 OK in 128ms (Views: 95.7ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/cities/2?url=%2Fcities%2F2%2Fposts%2F4" for ::1 at 2016-10-10 23:00:17 -0700
+Processing by CitiesController#show as HTML
+  Parameters: {"url"=>"/cities/2/posts/4", "id"=>"2"}
+  [1m[36mCity Load (2.3ms)[0m  [1m[34mSELECT  "cities".* FROM "cities" WHERE "cities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering cities/show.html.haml within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."city_id" = $1[0m  [["city_id", 2]]
+  Rendered cities/show.html.haml within layouts/application (5.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 200 OK in 100ms (Views: 93.2ms | ActiveRecord: 3.4ms)
+
+
