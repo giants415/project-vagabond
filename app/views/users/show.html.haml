@@ -16,5 +16,5 @@
       - @posts.each do |post|
         %h4= post.title
         %span= post.content
-        %button#editPostButton.submit-button{:onclick => "location.href = '/cities/" + @city.id.to_s + "/posts" + @posts.id.to_s + "/edit'"} Edit Post
+        %button#editPostButton.submit-button{:onclick => "location.href = '/cities/" + @city_id.to_s + "/posts" + @posts_id.to_s + "/edit'"} Edit Post
         %hr
