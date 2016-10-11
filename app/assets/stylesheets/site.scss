@@ -22,9 +22,6 @@ li.menu-text{
 
 .top-bar {
   background-color: #292c2f;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 .intro-text {
@@ -53,6 +50,7 @@ li.menu-text{
   padding: 50px;
   font-size: 20px;
   background-color: #fff;
+  margin-bottom: 100px;
 }
 
 .content {
@@ -120,6 +118,7 @@ p {
   position: fixed;
   bottom: 0;
   width: 100%;
+  overflow: auto;
 
   p {
     &.slogan {
