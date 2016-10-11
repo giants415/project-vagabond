@@ -1,6 +1,9 @@
-
-%h3.text-center All Cities In The System
-- @cities.each do |city|
-  %h2= city.city_name
-  %span= city.city_state
-  %hr
+.row
+  .large-8.large-centered.columns
+    %h2.text-center All Cities
+    - @cities.each do |city|
+      .card.city_card
+        = image_tag city.city_image, class: "city_image"
+        %span.title= city.city_name + ", " + city.city_state
+        .action
+          %a{:href => "#{}", :class => "city_links"} View All City Posts

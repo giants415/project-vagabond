@@ -15,7 +15,7 @@ html,body { // for demo only
   color: #272727;
   border-radius: 2px;
   padding: 1em;
-  margin-top: 13em;
+  margin-top: 2.5em;
   .title {
     line-height: 3rem;
     font-size: 1.5rem;
@@ -54,6 +54,11 @@ html,body { // for demo only
       border-radius: 2px 2px 0 0;
     }
   }
+}
+
+.sign-up-title {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sign-up{
