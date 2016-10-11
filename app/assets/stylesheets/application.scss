@@ -13,18 +13,22 @@
  *= require_tree .
  *= require_self
  *= require foundation_and_overrides
+ *= require sessions.scss
+ *= require cities.scss
  *= require site.scss
  *= require users.scss
- *= require sessions.scss
  */
 
  @media only screen and (min-width: 40em) {
 
-  .top-bar {
+.top-bar {
     text-align: center;
-    background-color: gray;
+    background-color: #292c2f;
   }
 
+.top-bar ul{
+  background-color: #292c2f;
+}
   .center-buttons {
     display: inline-block;
   }
@@ -35,6 +39,8 @@
     position: absolute;
   }
 }
+
+
 
 // some mobile resets
 
@@ -49,5 +55,5 @@
 }
 
 .top-bar.expanded {
-  background: #333333;
+  background: #292c2f;
 }
