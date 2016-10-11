@@ -13,9 +13,10 @@
  *= require_tree .
  *= require_self
  *= require foundation_and_overrides
+ *= require sessions.scss
+ *= require cities.scss
  *= require site.scss
  *= require users.scss
- *= require sessions.scss
  */
 
  @media only screen and (min-width: 40em) {
