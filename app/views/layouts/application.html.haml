@@ -6,7 +6,9 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    .top-bar
+
+  %div
+    #main-menu.top-bar
       .top-bar-left
         %ul.dropdown.menu{"data-dropdown-menu" => ""}
           %li.menu-text Wander
@@ -38,13 +40,10 @@
       .row
         .column
           %p.slogan
-            Vagabond
+            Wander
           %p.links
-            =link_to "Cities", cities_path
-            =link_to "Cities", cities_path
-            =link_to "Cities", cities_path
-            =link_to "Cities", cities_path
-            =link_to "Cities", cities_path
-            =link_to "Cities", cities_path
+            = link_to "San Francisco", '/cities/1'
+            = link_to "Gibraltar", '/cities/2'
+            = link_to "London", 'cities/3'
           %p.copywrite
             Immense Journey-81190 ©2016

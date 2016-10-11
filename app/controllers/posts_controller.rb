@@ -15,6 +15,7 @@ class PostsController < ApplicationController
 
   def show
     @post = Post.find_by_id(post_id)
+    @city = City.find_by_id(post_id)
   end
 
   def edit
@@ -24,12 +25,13 @@ class PostsController < ApplicationController
   def update
     post = Post.find_by_id(post_id)
     post.update_attributes(post_params)
-    redirect_to posts_path(post)
+    redirect_to post_path
   end
 
   def destroy
     @post = Post.find_by_id(post_id)
     @post.destroy
+    redirect_to posts_path
   end
 
 private
