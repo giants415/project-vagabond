@@ -1,6 +1,9 @@
-
-%h3.text-center All Cities In The System
-- @cities.each do |city|
-  %h2= city.city_name
-  %span= city.city_state
+.large-4
+  %h2= link_to "San Francisco", '/cities/1'
+  %h3= "United States"
   %hr
+  %h2= link_to "Gibraltar", '/cities/2'
+  %h3= "Spain"
+  %hr
+  %h2= link_to "London", 'cities/3'
+  %h3= "United Kingdom"

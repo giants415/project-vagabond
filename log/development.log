@@ -25390,3 +25390,28 @@ Processing by SiteController#index as HTML
   Rendered site/index.html.haml within layouts/application (7.8ms)
   [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
 Completed 200 OK in 245ms (Views: 240.7ms | ActiveRecord: 0.7ms)
+Started GET "/" for ::1 at 2016-10-10 22:41:39 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (10.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (4.8ms)
+Started GET "/" for ::1 at 2016-10-10 22:41:43 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (3.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 200 OK in 28637ms (Views: 28627.7ms | ActiveRecord: 6.6ms)
+
+
+Completed 200 OK in 32282ms (Views: 32256.0ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 22:42:54 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (2.5ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Completed 200 OK in 106ms (Views: 102.1ms | ActiveRecord: 1.0ms)
+
+
