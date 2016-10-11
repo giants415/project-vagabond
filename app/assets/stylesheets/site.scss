@@ -24,6 +24,10 @@ li.menu-text{
 
 .top-bar {
   background-color: #292c2f;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
 }
 
 .intro-text {
@@ -56,6 +60,7 @@ li.menu-text{
   font-size: 20px;
   background-color: #F8F7F4;
   margin-bottom: 100px;
+  height: auto;
   font-family: $font-stack;
 }
 
