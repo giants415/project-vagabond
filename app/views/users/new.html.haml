@@ -2,20 +2,19 @@
   .large-12.columns
     %h2.text-center.sign-up-title Join our awesome site!
     = form_for @user do |f|
-      .large-6.columns
-        .card.sign-up
-          .title Sign Up
+      .card.sign-up
+        .title Sign Up
 
-          = f.text_field :first_name, placeholder: "First Name"
+        = f.text_field :first_name, placeholder: "First Name"
 
-          = f.text_field :last_name, placeholder: "Last Name"
+        = f.text_field :last_name, placeholder: "Last Name"
 
-          = f.text_field :username, placeholder: "Username"
+        = f.text_field :username, placeholder: "Username"
 
-          = f.text_field :email, placeholder: "Email"
+        = f.text_field :email, placeholder: "Email"
 
-          = f.password_field :password, placeholder: "Password"
+        = f.password_field :password, placeholder: "Password"
 
-          = f.text_field :city, placeholder: "Current City"
+        = f.text_field :city, placeholder: "Current City"
 
-          = f.submit "Join!"
+        = f.submit "Join!"
