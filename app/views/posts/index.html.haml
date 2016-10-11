@@ -1,5 +1,5 @@
 %h1 All Posts In The System
 - @posts.each do |post|
-  %h2= post.title
+  %h2= link_to post.title, url: "/cities/#{@city.id.to_s}/posts/#{@post.id.to_s}"
   %span= post.content
   %hr/
