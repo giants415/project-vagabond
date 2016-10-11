@@ -16209,3 +16209,1471 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 137ms (Views: 133.7ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/users/new" for ::1 at 2016-10-10 15:15:17 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (3.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 135ms (Views: 131.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-10 15:15:25 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (4.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 139ms (Views: 135.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-10 15:16:13 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (5.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 132ms (Views: 127.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-10 15:19:59 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (5.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 165ms (Views: 162.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-10 15:20:15 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (5.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 132ms (Views: 129.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-10 15:20:26 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (3.4ms)
+  [1m[36mUser Load (26.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 172ms (Views: 142.1ms | ActiveRecord: 26.4ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-10 15:20:49 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (3.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 175ms (Views: 171.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-10 15:21:20 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (3.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 154ms (Views: 150.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-10 15:21:52 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (4.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 137ms (Views: 134.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-10 15:22:10 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (7.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 175ms (Views: 170.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for ::1 at 2016-10-10 15:23:22 -0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/new.html.haml within layouts/application (4.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 138ms (Views: 134.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 15:23:47 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (36.2ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (43.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 246ms (Views: 135.3ms | ActiveRecord: 40.5ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 15:27:00 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (3.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 142ms (Views: 138.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 15:27:20 -0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.haml within layouts/application
+  Rendered site/index.html.haml within layouts/application (4.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 136ms (Views: 133.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 15:28:05 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (2.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 134ms (Views: 131.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 15:36:48 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.9ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 195ms (Views: 190.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 15:37:06 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:8: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:11: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/cities/index.html.haml:8: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/cities/index.html.haml:11: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.1ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.0ms)
+Started GET "/cities" for ::1 at 2016-10-10 15:37:23 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %span and nested within it.):
+    5:   .row
+    6:     %h2= city.city_name
+    7:     %span= city.city_state
+    8:       %hr
+  
+app/views/cities/index.html.haml:8
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.8ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (85.7ms)
+Started GET "/cities" for ::1 at 2016-10-10 15:37:31 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:8: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:11: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/cities/index.html.haml:8: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/cities/index.html.haml:11: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.9ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.1ms)
+Started GET "/cities" for ::1 at 2016-10-10 15:37:43 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (2.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 132ms (Views: 128.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 15:37:55 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (2.9ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 143ms (Views: 138.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 15:38:09 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (2.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 132ms (Views: 128.6ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (61.5ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 22:52:10 UTC], ["updated_at", 2016-10-10 22:52:10 UTC]]
+  [1m[35m (29.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 22:52:15 UTC], ["updated_at", 2016-10-10 22:52:15 UTC]]
+  [1m[35m (8.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 22:52:17 UTC], ["updated_at", 2016-10-10 22:52:17 UTC]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 22:52:19 UTC], ["updated_at", 2016-10-10 22:52:19 UTC]]
+  [1m[35m (36.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 22:52:20 UTC], ["updated_at", 2016-10-10 22:52:20 UTC]]
+  [1m[35m (33.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 22:52:21 UTC], ["updated_at", 2016-10-10 22:52:21 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 22:52:23 UTC], ["updated_at", 2016-10-10 22:52:23 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 22:52:24 UTC], ["updated_at", 2016-10-10 22:52:24 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 22:52:25 UTC], ["updated_at", 2016-10-10 22:52:25 UTC]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 22:52:26 UTC], ["updated_at", 2016-10-10 22:52:26 UTC]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/cities" for ::1 at 2016-10-10 15:52:35 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (235.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 1213ms (Views: 1159.6ms | ActiveRecord: 40.0ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 15:59:18 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (38.1ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (55.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 548ms (Views: 506.6ms | ActiveRecord: 38.6ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:03:04 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (56.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 1674ms (Views: 1668.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:03:31 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.):
+    1: 
+    2: .row
+    3:   %h3.text-center All Cities In The System
+    4:     .large-6.columns
+    5:     - @cities.each do |city|
+    6:       %img{:src => "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"}
+    7:       %h2= city.city_name
+  
+app/views/cities/index.html.haml:4
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (16.9ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (27.7ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (184.1ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:03:41 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (47.0ms)
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.):
+    1: 
+    2: .row
+    3:   %h3.text-center All Cities In The System
+    4:     .large-6.columns
+    5:       - @cities.each do |city|
+    6:         %img{:src => "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"}
+    7:         %h2= city.city_name
+  
+app/views/cities/index.html.haml:4
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (89.9ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.5ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (231.1ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:04:07 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (142.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (225.9ms)
+  [1m[36mUser Load (17.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 663ms (Views: 411.6ms | ActiveRecord: 159.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:09:00 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:10: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:13: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/cities/index.html.haml:10: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/cities/index.html.haml:13: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.7ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (104.6ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:09:16 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    4:     %h3.text-center All Cities In The System
+    5:     - @cities.each do |city|
+    6:   .large-6.columns
+    7:       %img{:src => "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"}
+    8:       %h2= city.city_name
+    9:       %span= city.city_state
+   10:       %hr
+  
+app/views/cities/index.html.haml:7
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (15.2ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.9ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (155.1ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:10:46 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:10: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:13: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/cities/index.html.haml:10: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/cities/index.html.haml:13: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.9ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (99.1ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:11:27 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:9: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:12: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/cities/index.html.haml:9: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/cities/index.html.haml:12: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (45.6ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (218.9ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:11:51 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.4ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 134ms (Views: 130.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:12:21 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 162ms (Views: 157.6ms | ActiveRecord: 0.8ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6915571527851614005);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddImageToCities (20161010231612)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (18.7ms)[0m  [1m[35mALTER TABLE "cities" ADD "city_image" character varying[0m
+  [1m[35mSQL (27.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161010231612"]]
+  [1m[35m (19.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6915571527851614005)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'cities'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[35m (5126.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "vagabond_app_development"[0m
+Started GET "/cities" for ::1 at 2016-10-10 16:20:05 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (1.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (14.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 574ms (Views: 561.3ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:20:52 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (7.9ms)
+  [1m[36mUser Load (14.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 167ms (Views: 146.6ms | ActiveRecord: 14.7ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:21:05 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 152ms (Views: 147.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:21:13 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (1.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (5.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 134ms (Views: 130.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:21:33 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 156ms (Views: 152.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:21:59 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.):
+    1: 
+    2: .row
+    3:   %h3.text-center All Cities In The System
+    4:     .large-6.columns
+    5:       - @cities.each do |city|
+    6:         %h2= city.city_name
+    7:         %span= city.city_state
+  
+app/views/cities/index.html.haml:4
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (21.8ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (112.1ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:22:05 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.):
+    1: 
+    2: .row
+    3: %h3.text-center All Cities In The System
+    4:   .large-6.columns
+    5:     - @cities.each do |city|
+    6:       %h2= city.city_name
+    7:       %span= city.city_state
+  
+app/views/cities/index.html.haml:4
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.3ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:22:13 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (2.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 154ms (Views: 150.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for ::1 at 2016-10-10 16:23:04 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.haml within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.haml within layouts/application (10.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 200ms (Views: 169.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users" for ::1 at 2016-10-10 16:23:07 -0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.haml within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.haml within layouts/application (2.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 132ms (Views: 128.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:23:10 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 155ms (Views: 150.7ms | ActiveRecord: 1.2ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[35m (5074.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "vagabond_app_development"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[35m (5086.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "vagabond_app_development"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", :environment]]
+  [1m[35m (173.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "vagabond_app_development"[0m
+  [1m[35m (120.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "vagabond_app_test"[0m
+  [1m[35m (3291.5ms)[0m  [1m[35mCREATE DATABASE "vagabond_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (374.9ms)[0m  [1m[35mCREATE DATABASE "vagabond_app_test" ENCODING = 'unicode'[0m
+  [1m[35m (9.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6915571527851614005);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePosts (20161006234738)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (18.7ms)[0m  [1m[35mCREATE TABLE "posts" ("id" serial primary key, "title" character varying, "content" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161006234738"]]
+  [1m[35m (16.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateUsers (20161006235444)
+  [1m[35m (16.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (19.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" serial primary key, "first_name" character varying, "last_name" character varying, "username" character varying, "email" character varying, "password_digest" character varying, "city" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161006235444"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateCities (20161007212116)
+  [1m[35m (16.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (20.4ms)[0m  [1m[35mCREATE TABLE "cities" ("id" serial primary key, "city_name" character varying, "city_state" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161007212116"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddUserToRefToPosts (20161007215324)
+  [1m[35m (15.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "posts" ADD "user_id" integer[0m
+  [1m[35m (16.9ms)[0m  [1m[35mCREATE  INDEX  "index_posts_on_user_id" ON "posts"  ("user_id")[0m
+  [1m[35m (2.4ms)[0m  [1m[35mALTER TABLE "posts" ADD CONSTRAINT "fk_rails_5b5ddfd518"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161007215324"]]
+  [1m[35m (26.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddCityRefToPosts (20161008190013)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "posts" ADD "city_id" integer[0m
+  [1m[35m (38.7ms)[0m  [1m[35mCREATE  INDEX  "index_posts_on_city_id" ON "posts"  ("city_id")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mALTER TABLE "posts" ADD CONSTRAINT "fk_rails_3e73622a21"
+FOREIGN KEY ("city_id")
+  REFERENCES "cities" ("id")
+[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161008190013"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddImageToCities (20161010231612)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "cities" ADD "city_image" character varying[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161010231612"]]
+  [1m[35m (15.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", 2016-10-10 23:32:29 UTC], ["updated_at", 2016-10-10 23:32:29 UTC]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6915571527851614005)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'cities'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+Started GET "/cities" for ::1 at 2016-10-10 16:32:46 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (7.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 1825ms (Views: 1775.3ms | ActiveRecord: 4.4ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (28.3ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at", "city_image") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 23:34:22 UTC], ["updated_at", 2016-10-10 23:34:22 UTC], ["city_image", "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"]]
+  [1m[35m (29.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at", "city_image") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 23:34:24 UTC], ["updated_at", 2016-10-10 23:34:24 UTC], ["city_image", "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at", "city_image") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 23:34:26 UTC], ["updated_at", 2016-10-10 23:34:26 UTC], ["city_image", "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"]]
+  [1m[35m (12.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at", "city_image") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 23:34:27 UTC], ["updated_at", 2016-10-10 23:34:27 UTC], ["city_image", "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"]]
+  [1m[35m (27.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at", "city_image") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 23:34:28 UTC], ["updated_at", 2016-10-10 23:34:28 UTC], ["city_image", "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at", "city_image") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 23:34:30 UTC], ["updated_at", 2016-10-10 23:34:30 UTC], ["city_image", "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at", "city_image") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 23:34:31 UTC], ["updated_at", 2016-10-10 23:34:31 UTC], ["city_image", "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at", "city_image") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 23:34:32 UTC], ["updated_at", 2016-10-10 23:34:32 UTC], ["city_image", "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at", "city_image") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 23:34:33 UTC], ["updated_at", 2016-10-10 23:34:33 UTC], ["city_image", "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "cities" ("city_name", "city_state", "created_at", "updated_at", "city_image") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["city_name", "San Francisco"], ["city_state", "California"], ["created_at", 2016-10-10 23:34:34 UTC], ["updated_at", 2016-10-10 23:34:34 UTC], ["city_image", "https://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/cities" for ::1 at 2016-10-10 16:34:39 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.8ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (13.7ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 682ms (Views: 673.8ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:35:51 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (51.0ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+     6:       %h2= city.city_name
+     7:       %span= city.city_state
+     8:   .large-6.columns
+     9:       %img{:src => city_image}
+    10:       %hr
+  
+app/views/cities/index.html.haml:9
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.2ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (97.9ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:36:01 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+     6:       %h2= city.city_name
+     7:       %span= city.city_state
+     8:   .large-6.columns
+     9:       %img{:src => "city_image"}
+    10:       %hr
+  
+app/views/cities/index.html.haml:9
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.5ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:36:25 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+     6:       %h2= city.city_name
+     7:       %span= city.city_state
+     8:   .large-6.columns
+     9:       .src= city_image
+    10:       %hr
+  
+app/views/cities/index.html.haml:9
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.2ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:37:56 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:11: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/cities/index.html.haml:11: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (103.1ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:38:25 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (169.7ms)
+Completed 500 Internal Server Error in 180ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `city' for #<#<Class:0x007f9a59158c18>:0x007f9a624b91d8>):
+     6:       %h2= city.city_name
+     7:       %span= city.city_state
+     8:   .large-6.columns
+     9:     %img{:src => city.city_image }
+    10:       %hr
+  
+app/views/cities/index.html.haml:9:in `_app_views_cities_index_html_haml___1235763529599327949_70150525406680'
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.6ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:40:31 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (185.4ms)
+Completed 500 Internal Server Error in 196ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `city' for #<#<Class:0x007f9a59158c18>:0x007f9a5fc49040>):
+     6:       %h2= city.city_name
+     7:       %span= city.city_state
+     8:   .large-6.columns
+     9:     %img{:src => city.city_image }
+    10:       %hr
+  
+app/views/cities/index.html.haml:9:in `_app_views_cities_index_html_haml___1235763529599327949_70150504205600'
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.1ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (86.7ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:40:46 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (1.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (6.0ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 214ms (Views: 209.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:42:02 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (181.0ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `city' for #<#<Class:0x007f9a59158c18>:0x007f9a618ff2e8>):
+     6:       %h2= city.city_name
+     7:       %span= city.city_state
+     8:   .large-6.columns
+     9:     %img{:src => city.city_image }
+    10:       %hr
+  
+app/views/cities/index.html.haml:9:in `_app_views_cities_index_html_haml___1235763529599327949_70150519258720'
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.6ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:42:27 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (1.0ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.9ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 130ms (Views: 124.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:43:40 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.3ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 166ms (Views: 161.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:45:01 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 159ms (Views: 155.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:45:48 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (5.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 288ms (Views: 284.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:46:09 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:8: syntax error, unexpected ')', expecting =>
+...rc => city.city_image, :image )}>\n    <hr>\n", 0, false);en...
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:8: syntax error, unexpected $undefined
+...ty_image, :image )}>\n    <hr>\n", 0, false);end;_hamlout.pu...
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:8: unknown regexp options - dv
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:8: syntax error, unexpected $undefined
+...ut.push_text("  </div>\n</div>\n", -2, false);::Haml::Util.h...
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:8: unterminated string meets end of file
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:8: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  
+app/views/cities/index.html.haml:8: syntax error, unexpected ')', expecting =>
+app/views/cities/index.html.haml:8: syntax error, unexpected $undefined
+app/views/cities/index.html.haml:8: unknown regexp options - dv
+app/views/cities/index.html.haml:8: syntax error, unexpected $undefined
+app/views/cities/index.html.haml:8: unterminated string meets end of file
+app/views/cities/index.html.haml:8: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.8ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:46:20 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 182ms (Views: 178.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:46:36 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 177ms (Views: 174.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:47:38 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 168ms (Views: 164.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:48:13 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.8ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 134ms (Views: 129.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:49:05 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 168ms (Views: 163.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:49:43 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 127ms (Views: 123.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:50:13 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 150ms (Views: 146.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:50:56 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (165.0ms)
+Completed 500 Internal Server Error in 175ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `city' for #<#<Class:0x007f9a59158c18>:0x007f9a62468418>):
+     7:         %h2= city.city_name
+     8:         %span= city.city_state
+     9:     .large-6.columns
+    10:       %img{:src => city.city_image, :class => "city_image" }
+    11:       %hr
+  
+app/views/cities/index.html.haml:10:in `_app_views_cities_index_html_haml___1235763529599327949_70150525241080'
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (92.4ms)
+Started GET "/cities" for ::1 at 2016-10-10 16:51:24 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 212ms (Views: 208.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:51:55 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.9ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 125ms (Views: 121.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:55:45 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 306ms (Views: 302.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:55:59 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 187ms (Views: 183.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:56:10 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (5.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 143ms (Views: 139.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 16:58:25 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 971ms (Views: 967.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:06:15 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (22.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 350ms (Views: 334.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:08:20 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 148ms (Views: 144.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:09:52 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.5ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 217ms (Views: 212.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:14:53 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:10: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/cities/index.html.haml:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/cities/index.html.haml:10: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.8ms)
+Started GET "/cities" for ::1 at 2016-10-10 17:19:53 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:6: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:9: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/cities/index.html.haml:6: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/cities/index.html.haml:9: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.6ms)
+Started GET "/cities" for ::1 at 2016-10-10 17:20:09 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 229ms (Views: 224.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:21:03 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 1173ms (Views: 1169.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:21:21 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 175ms (Views: 170.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:21:30 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 163ms (Views: 158.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:21:47 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.):
+    1: .row
+    2: %h3.text-center All Cities
+    3:   .medium-4.large-4.columns
+    4:     .image
+    5:     - @cities.each do |city|
+    6:       %img{:src => city.city_image, :class => "city_image" }
+  
+app/views/cities/index.html.haml:3
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.9ms)
+Started GET "/cities" for ::1 at 2016-10-10 17:21:53 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.7ms)
+  [1m[36mUser Load (9.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 160ms (Views: 146.4ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:22:08 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (15.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (20.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 160ms (Views: 140.1ms | ActiveRecord: 16.4ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:22:31 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.3ms)
+  [1m[36mUser Load (20.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 157ms (Views: 133.4ms | ActiveRecord: 20.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:23:13 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  Rendered cities/index.html.haml within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/purposedriven/Desktop/WDI Stuff/WDI31/Ruby/project-vagabond/app/views/cities/index.html.haml:10: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/cities/index.html.haml:7: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/cities/index.html.haml:10: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/purposedriven/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.7ms)
+Started GET "/cities" for ::1 at 2016-10-10 17:23:37 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 144ms (Views: 140.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:24:26 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (4.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 133ms (Views: 129.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:24:42 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (7.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 142ms (Views: 138.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:24:45 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (10.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 143ms (Views: 139.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:25:04 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (7.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 167ms (Views: 163.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:25:32 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.4ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (6.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 139ms (Views: 135.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:25:35 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (7.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 182ms (Views: 177.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:26:58 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.6ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 133ms (Views: 129.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:27:13 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.4ms)
+  [1m[36mUser Load (35.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 169ms (Views: 129.8ms | ActiveRecord: 36.1ms)
+
+
+Started GET "/cities" for ::1 at 2016-10-10 17:27:23 -0700
+Processing by CitiesController#index as HTML
+  Rendering cities/index.html.haml within layouts/application
+  [1m[36mCity Load (0.3ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  Rendered cities/index.html.haml within layouts/application (3.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 134ms (Views: 129.8ms | ActiveRecord: 0.8ms)
+
+
