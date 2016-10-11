@@ -3,7 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
-$font-title : "Poiret One", serif;
+$font-stack: "Poiret One", serif;
+$primary-color: #292c2f;
 
 li a {
   list-style: none;
@@ -18,20 +19,26 @@ li a:hover {
 
 li.menu-text{
   color: white;
+  font-family: $font-stack;
 }
 
 .top-bar {
   background-color: #292c2f;
-  position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
+  position: fixed;
 }
 
 .intro-text {
   font-size: 80px;
   color: black;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 12%;
+  letter-spacing: 75px;
+  font-family: $font-stack;
+  font-size: 140px;
+  font-weight: bolder;
 }
 
 .parallax-background {
@@ -43,7 +50,7 @@ li.menu-text{
   background-size: cover;
   position: fixed;
   width: 100%;
-  opacity: .75;
+  opacity: .85;
 }
 
 .parallax-content {
@@ -52,13 +59,17 @@ li.menu-text{
   top: 500px;
   padding: 50px;
   font-size: 20px;
-  background-color: #fff;
+  background-color: #F8F7F4;
+  margin-bottom: 100px;
+  height: auto;
+  font-family: $font-stack;
 }
 
 .content {
   padding: 1.3rem;
   font-weight: 300;
   border-radius: 0 0 2px 2px;
+  font-family: $font-stack;
 }
 
 p {
@@ -77,6 +88,11 @@ p {
   img {
     border-radius: 2px 2px 0 0;
   }
+}
+
+.frontpageImg {
+  max-width: 360px;
+  max-height: 240px;
 }
 
 
@@ -120,6 +136,8 @@ p {
   position: fixed;
   bottom: 0;
   width: 100%;
+  overflow: auto;
+  font-family: $font-stack;
 
   p {
     &.slogan {
