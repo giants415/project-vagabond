@@ -2,16 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-li {
+li a {
   list-style: none;
-  background-color: #8d9093;
-}
-
-
-.nav-color {
   background-color: #292c2f;
+  color: white;
 }
 
+li a:hover {
+  background-color: #404040;
+  color: white;
+}
+
+li.menu-text{
+  color: white;
+}
+
+.top-bar {
+  background-color: #ffffff;
+}
 
 .intro-text {
   font-size: 80px;
