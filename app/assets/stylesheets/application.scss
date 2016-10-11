@@ -20,11 +20,14 @@
 
  @media only screen and (min-width: 40em) {
 
-  .top-bar {
+.top-bar {
     text-align: center;
-    background-color: gray;
+    background-color: #292c2f;
   }
 
+.top-bar ul{
+  background-color: #292c2f;
+}
   .center-buttons {
     display: inline-block;
   }
@@ -49,5 +52,5 @@
 }
 
 .top-bar.expanded {
-  background: #333333;
+  background: #292c2f;
 }
