@@ -14,7 +14,7 @@ class PostsController < ApplicationController
   end
 
   def show
-    @post = Post.find_by_id(post_id)
+    @post = Post.find_by_id(post_id).order(created_at: :desc)
     @city = City.find_by_id(post_id)
   end
 
