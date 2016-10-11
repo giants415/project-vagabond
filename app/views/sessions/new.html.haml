@@ -3,7 +3,7 @@
     = form_for @user do |f|
       %div{:class => "large-6 column login-footer-space"}
         %div{:class => "card"}
-          .title Login
+          .title.sign-up-title Login
           = f.text_field :username, placeholder: "Username"
           = f.password_field :password, placeholder: "Password"
           = f.submit "Log In"
