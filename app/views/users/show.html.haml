@@ -1,5 +1,5 @@
 .row
-  .large-10.column
+  .large-12.column
     .large-6.column
       %img{:src => "http://www.fuelingnewbusiness.com/wp-content/uploads/2009/09/twitter-egg.jpg", :class => "profile-img"}
       %h5 Name:
@@ -14,7 +14,8 @@
     .large-6.column
     - if @posts
       - @posts.each do |post|
-        %h4= post.title
+        %a{href: '/cities/' + post.city.id.to_s}
+          #{post.title}
         %span= post.content
         %button#editPostButton.submit-button{:onclick => "location.href = '/cities/" + post.city.id.to_s + "/posts/" + post.id.to_s + "/edit'"} Edit Post
         %button#editPostButton.submit-button{:onclick => "location.href = '#{edit_post_path(post.city, post)}'"} Edit Post
