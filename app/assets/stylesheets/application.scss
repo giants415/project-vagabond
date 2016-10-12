@@ -19,6 +19,7 @@
  *= require users.scss
  */
 
+
  @media only screen and (min-width: 40em) {
 
 .top-bar {
@@ -40,9 +41,26 @@
   }
 }
 
+.image img {
+    border-radius: 10px 10px;
+    height: 200px;
+    width: 350px;
+  }
+
+.image .title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1.3rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
 .inputted-data {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 120px;
 }
 
 // some mobile resets

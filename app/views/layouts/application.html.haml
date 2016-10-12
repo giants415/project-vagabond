@@ -9,8 +9,8 @@
 
   %div
     #main-menu.top-bar
-      .top-bar-left
-        %ul.dropdown.menu{"data-dropdown-menu" => ""}
+      -# .top-bar-left
+        -# %ul.dropdown.menu{"data-dropdown-menu" => ""}
           %li.menu-text Wander
       - if current_user
         .top-bar-right
@@ -42,6 +42,6 @@
           %p.links
             = link_to "San Francisco", '/cities/1'
             = link_to "Gibraltar", '/cities/2'
-            = link_to "London", 'cities/3'
+            = link_to "London", '/cities/3'
           %p.copywrite
-            Immense Journey-81190 ©2016
+            Immense-Journey-81190 ©2016
