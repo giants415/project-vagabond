@@ -25,5 +25,5 @@
           %span= post.created_at.strftime("%d %b %Y")
           %p= post.content
           = button_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' }
-          %button#editPostButton.submit-button{class: button, :onclick => "location.href = '#{edit_post_path(post.city, post)}'"} Edit Post
+          %button#editPostButton.submit-button{class: "button", :onclick => "location.href = '#{edit_post_path(post.city, post)}'"} Edit Post
           %hr
