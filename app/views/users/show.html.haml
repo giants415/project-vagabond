@@ -1,23 +1,27 @@
-.row
-  .large-12.column
-    .large-6.column
-      %img{:src => "http://www.fuelingnewbusiness.com/wp-content/uploads/2009/09/twitter-egg.jpg", :class => "profile-img"}
-      %h5 Join Date:
-      = @user.created_at
-      %h5 Name:
-      = @user.first_name
-      = @user.last_name
-      %h5 Username:
-      = @user.username
-      %h5 Email:
-      = @user.email
-      %h5 City:
-      = @user.city
-    .large-6.column
+%br
+.large-12.column
+  .large-4.column
+    %img{:src => "http://www.fuelingnewbusiness.com/wp-content/uploads/2009/09/twitter-egg.jpg", :class => "profile-img"}
+    %br
+    %h5 Join Date:
+    = @user.created_at.strftime("%d %b %Y")
+    %h5 Name:
+    = @user.first_name
+    = @user.last_name
+    %h5 Username:
+    = @user.username
+    %h5 Email:
+    = @user.email
+    %h5 City:
+    = @user.city
+  .large-8.column
     - if @posts
       - @posts.each do |post|
-        %a{href: '/cities/' + post.city.id.to_s}
-          #{post.title}
-        %span= post.content
-        %button#editPostButton.submit-button{:onclick => "location.href = '/cities/" + post.city.id.to_s + "/posts/" + post.id.to_s + "/edit'"} Edit Post
-        %hr
+        .post-box
+          %a{href: '/cities/' + post.city.id.to_s}
+            %h4
+              #{post.title}
+          %span= post.created_at.strftime("%d %b %Y")
+          %p= post.content
+          %button#editPostButton.submit-button{:onclick => "location.href = '#{edit_post_path(post.city, post)}'"} Edit Post
+          %hr
