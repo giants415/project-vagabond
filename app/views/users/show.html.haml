@@ -26,4 +26,5 @@
           %p= post.content
           %button#editPostButton.submit-button{:onclick => "location.href = '#{edit_post_path(post.city, post)}'"} Edit Post
           = button_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' }
+          = button_to 'Edit', edit_post_path(post.city, post, post.id), method: :get
           %hr
