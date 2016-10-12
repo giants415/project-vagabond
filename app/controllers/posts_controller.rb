@@ -2,6 +2,7 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.where(city_id: params[:city_id]).order(created_at: :desc)
+    @city = City.find_by(post_id)
   end
 
   def new

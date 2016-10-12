@@ -16,7 +16,9 @@
               %br
               %span= post.user.username
               %br
-              %span= post.created_at
-              %h4= link_to post.title, url: "/cities/#{@city.id.to_s}/posts/#{post.id.to_s}"
+              %span= post.created_at.strftime("%d %b %Y")
+              %a{ href: "/cities/" + post.city.id.to_s + "/posts/" + post.id.to_s }
+                %h4
+                  #{post.title}
               %span= post.content
               %hr
