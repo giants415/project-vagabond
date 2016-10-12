@@ -29,6 +29,7 @@ class PostsController < ApplicationController
 
     @post.update_attributes(post_params)
     redirect_to post_path(@city, @post)
+
   end
 
   def destroy

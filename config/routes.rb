@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   root to: "site#index"
 
   get "/users", to: "users#index", as: 'users'
@@ -24,4 +25,7 @@ Rails.application.routes.draw do
   get '/cities/new', to: 'cities#new', as: 'new_city'
   post '/cities', to: 'cities#create'
   get '/cities/:id', to: 'cities#show', as: 'city'
+
+  match "/404", :to => "errors#not_found", :via => :all
+  match "/500", :to => "errors#internal_server_error", :via => :all
 end
