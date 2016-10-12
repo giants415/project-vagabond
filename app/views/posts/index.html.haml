@@ -11,14 +11,15 @@
 
       .large-12.large-centered.columns.end
         .row.post-content
-          - @posts.each do |post|
-            %img{:src => "http://www.fuelingnewbusiness.com/wp-content/uploads/2009/09/twitter-egg.jpg", :class => "user-post-img"}
-            %br
-            %span= post.user.username
-            %br
-            %span= post.created_at.strftime("%d %b %Y")
-            %a{ href: "/cities/" + post.city.id.to_s + "/posts/" + post.id.to_s }
-              %h4
-                #{post.title}
-            %span= post.content
-            %hr
+          - if @posts
+            - @posts.each do |post|
+              %img{:src => "http://www.fuelingnewbusiness.com/wp-content/uploads/2009/09/twitter-egg.jpg", :class => "user-post-img"}
+              %br
+              %span= post.user.username
+              %br
+              %span= post.created_at.strftime("%d %b %Y")
+              %a{ href: "/cities/" + post.city.id.to_s + "/posts/" + post.id.to_s }
+                %h4
+                  #{post.title}
+              %span= post.content
+              %hr

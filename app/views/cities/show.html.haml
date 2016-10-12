@@ -5,7 +5,7 @@
         %li.is-active.orbit-slide
           = image_tag @city.city_image
           %span.orbit-caption
-            %h1.text-center.city_header_text= @city.city_name + ", " + @city.city_state
+            %h1.text-center.city_header_text= @city.city_name
             %button#newPostButton.submit-button{onclick: "location.href = '/cities/" + @city.id.to_s + "/posts/new'"} Add New Post
 
       .large-12.large-centered.columns.end
