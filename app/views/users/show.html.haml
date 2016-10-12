@@ -2,6 +2,8 @@
   .large-10.column
     .large-6.column
       %img{:src => "http://www.fuelingnewbusiness.com/wp-content/uploads/2009/09/twitter-egg.jpg", :class => "profile-img"}
+      %h5 Join Date:
+      = @user.created_at
       %h5 Name:
       = @user.first_name
       = @user.last_name
@@ -16,5 +18,4 @@
       - @posts.each do |post|
         %h4= post.title
         %span= post.content
-        %button#editPostButton.submit-button{:onclick => "location.href = '/cities/" + @city.id.to_s + "/posts" + @posts.id.to_s + "/edit'"} Edit Post
         %hr
