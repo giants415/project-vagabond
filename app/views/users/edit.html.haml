@@ -1,18 +1,22 @@
-= form_for @user do |f|
-    = f.label :first_name, 'First Name:'
-    = f.text_field :first_name
+%div{:class => "row"}
+  %div{:class => "large-8 column"}
+    = form_for @user do |f|
+      %div{:class => "large-6 column login-footer-space"}
+        %div{:class => "card"}
+          .title.sign-up-title Update Your Profile Below!
+          = f.label :first_name, 'First Name:'
+          = f.text_field :first_name
 
-    = f.label :last_name, 'Last Name:'
-    = f.text_field :last_name
+          = f.label :last_name, 'Last Name:'
+          = f.text_field :last_name
 
-    = f.label :username, 'Username:'
-    = f.text_field :username
+          = f.label :username, 'Username:'
+          = f.text_field :username
 
-    = f.label :email, 'Email:'
-    = f.text_field :email
+          = f.label :email, 'Email:'
+          = f.text_field :email
 
-    = f.label :city, 'City:'
-    = f.text_field :city
+          = f.label :city, 'City:'
+          = f.text_field :city
 
-
-    = f.submit 'Join!'
+          = f.submit 'Update!'

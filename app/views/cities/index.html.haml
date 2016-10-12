@@ -6,4 +6,5 @@
         = image_tag city.city_image, class: "city_image"
         %span.title= city.city_name + ", " + city.city_state
         .action
-          %a{:href => "#{}", :class => "city_links"} View All City Posts
+          %a{ href: "/cities/" + city.id.to_s + "/posts" }
+            View All City Posts

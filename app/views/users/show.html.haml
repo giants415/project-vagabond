@@ -2,6 +2,8 @@
   .large-12.column
     .large-6.column
       %img{:src => "http://www.fuelingnewbusiness.com/wp-content/uploads/2009/09/twitter-egg.jpg", :class => "profile-img"}
+      %h5 Join Date:
+      = @user.created_at
       %h5 Name:
       = @user.first_name
       = @user.last_name

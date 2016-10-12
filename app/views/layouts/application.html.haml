@@ -14,27 +14,25 @@
           %li.menu-text Wander
       - if current_user
         .top-bar-right
-          %ul.menu{"data-responsive-menu" => "drilldown medium-dropdown"}
-            %li.has-submenu
-              %p My Wander
-              %ul.submenu.menu.vertical{"data-submenu" => ""}
-                %li
-                  =link_to "My Profile", user_path(current_user)
-                -# %li
-                -#   =link_to ("My Posts #{}")
-          %li
-            =link_to "Log Out", logout_path
+          %ul.vertical.medium-horizontal.menu
+            %li
+              =link_to "Cities", cities_path
+            %li
+              =link_to "My Profile", user_path(current_user)
+            %li
+              =link_to "Log Out", logout_path
       - else
         .top-bar-right
           %ul.vertical.medium-horizontal.menu
             %li
+              =link_to "Cities", cities_path
+            %li
               =link_to "Sign Up", new_user_path
             %li
               =link_to "Log In", new_session_path
-            %li
-              =link_to "Cities", cities_path
 
-    =yield
+    .inputted-data
+      =yield
 
     .footer
       .row
