@@ -24,7 +24,7 @@ class PostsController < ApplicationController
 
   def update
     @post = Post.find_by_id(post_id)
-    @city = City.find_by_id(post_id)
+    @city = City.find_by_id(@post.city.id).id
 
     @post.update_attributes(post_params)
     redirect_to post_path(@city, @post)
