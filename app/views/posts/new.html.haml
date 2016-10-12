@@ -1,10 +1,13 @@
-%h1 Create a post below!
+%div{:class => "row"}
+  %div{:class => "large-8 column"}
+    = form_for @post do |f|
+      %div{:class => "large-6 column login-footer-space"}
+        %div{:class => "card"}
+          .title.sign-up-title Create a post below!
+          = f.label :title, 'Title:'
+          = f.text_field :title
 
-= form_for @post do |f|
-    = f.label :title, 'Title:'
-    = f.text_field :title
+          = f.label :content, 'Content:'
+          = f.text_area :content
 
-    = f.label :content, 'Content:'
-    = f.text_area :content
-
-    = f.submit 'Create Post!'
+          = f.submit 'Create Post!'

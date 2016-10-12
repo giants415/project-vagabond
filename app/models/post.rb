@@ -3,7 +3,8 @@ class Post < ApplicationRecord
   belongs_to :city
 
     validates :title,
-      presence: true
+      presence: true,
+      length: { in: 1..200 }
 
     validates :content,
       presence: true

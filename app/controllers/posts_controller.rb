@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
 
   def index
-    @posts = Post.where(city_id: params[:city_id]).find_each
+    @posts = Post.where(city_id: params[:city_id]).order(created_at: :desc)
   end
 
   def new
@@ -23,9 +23,11 @@ class PostsController < ApplicationController
   end
 
   def update
-    post = Post.find_by_id(post_id)
-    post.update_attributes(post_params)
-    redirect_to post_path
+    @post = Post.find_by_id(post_id)
+    @city = City.find_by_id(post_id)
+
+    @post.update_attributes(post_params)
+    redirect_to post_path(@city, @post)
   end
 
   def destroy
