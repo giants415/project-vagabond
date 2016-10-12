@@ -63,6 +63,20 @@ li.menu-text{
   margin-bottom: 100px;
   height: auto;
   font-family: $font-stack;
+  .about-content{
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 200px;
+    margin-top: 130px;
+    font-family: $font-stack;
+    .about{
+      text-align: center;
+      font-family: $font-stack;
+      letter-spacing: 10px;
+      font-weight: bolder;
+      font-size: 50px;
+    }
+  }
 }
 
 .content {
@@ -75,6 +89,7 @@ li.menu-text{
 p {
   margin: 0;
 }
+
 
 .image {
   position: relative;
