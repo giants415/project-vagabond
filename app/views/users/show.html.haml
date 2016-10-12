@@ -24,7 +24,6 @@
               #{post.title}
           %span= post.created_at.strftime("%d %b %Y")
           %p= post.content
-          %button#editPostButton.submit-button{:onclick => "location.href = '#{edit_post_path(post.city, post)}'"} Edit Post
           = button_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' }
-          = button_to 'Edit', edit_post_path(post.city, post, post.id), method: :get
+          %button#editPostButton.submit-button{class: button, :onclick => "location.href = '#{edit_post_path(post.city, post)}'"} Edit Post
           %hr
