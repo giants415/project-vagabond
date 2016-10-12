@@ -24,4 +24,5 @@
           %span= post.created_at.strftime("%d %b %Y")
           %p= post.content
           %button#editPostButton.submit-button{:onclick => "location.href = '#{edit_post_path(post.city, post)}'"} Edit Post
+          = button_to 'Edit', edit_post_path(post.city, post, post.id), method: :get
           %hr
