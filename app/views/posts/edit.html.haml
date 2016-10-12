@@ -1,8 +1,9 @@
-.row
-  .large-8.column
-    = form_for [@city, @post] do |f|
-      .large-6.column.login-footer-space
-        .card
+
+%div{:class => "row"}
+  %div{:class => "large-8 column"}
+    = form_for @post do |f|
+      %div{:class => "large-6 column login-footer-space"}
+        %div{:class => "card"}
           .title.sign-up-title Update Your Post Below!
           = f.label :title, 'Title:'
           = f.text_field :title

@@ -1,10 +1,9 @@
 .row
   .large-8.large-centered.columns
-    %h2.text-center All Cities
     - @cities.each do |city|
       .card.city_card
         = image_tag city.city_image, class: "city_image"
         %span.title= city.city_name + ", " + city.city_state
         .action
-          %a{ href: "/cities/" + city.id.to_s + "/posts" }
+          %a{ href: "/cities/" + city.id.to_s }
             View All City Posts

@@ -3,8 +3,11 @@
     .card
       %h1= @post.title
       %hr
+      %strong= @post.user.username
+      %br
       %p= @post.content
+      %strong= @post.created_at.strftime("%d %b %Y")
       %br
 
-      = button_to 'Edit', edit_post_path(@post.city, @post), method: :get 
+      = button_to 'Edit', edit_post_path(@post.city, @post), method: :get
       = button_to 'Delete', @post, method: :delete, data: { confirm: 'Are you sure?' }

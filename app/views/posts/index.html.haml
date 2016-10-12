@@ -1,16 +1,25 @@
 
-.large-6.large-centered.columns
-  %h1 All Posts In The System
-  %button#newPostButton.submit-button{onclick: "location.href = '#{new_post_path}'" }
-    Add New Post
-  %br
-  %br
+.row.collapse.expanded
+  .small-12.medium-12.large-12.columns
+    .orbit
+      %ul.orbit-container
+        %li.is-active.orbit-slide
+          = image_tag @city.city_image
+          %span.orbit-caption
+            %h1.text-center.city_header_text= @city.city_name + ", " + @city.city_state
+            %button#newPostButton.submit-button{onclick: "location.href = '/cities/" + @city.id.to_s + "/posts/new'"} Add New Post
 
-  - @posts.each do |post|
-    %a{ href: "/cities/" + post.city.id.to_s + "/posts/" + post.id.to_s }
-      %h4
-        #{post.title}
-    %span= post.user.username
-    %span= post.created_at
-    %p= post.content
-    %hr/
+      .large-12.large-centered.columns.end
+        .row.post-content
+          - if @posts
+            - @posts.each do |post|
+              %img{:src => "http://www.fuelingnewbusiness.com/wp-content/uploads/2009/09/twitter-egg.jpg", :class => "user-post-img"}
+              %br
+              %span= post.user.username
+              %br
+              %span= post.created_at.strftime("%d %b %Y")
+              %a{ href: "/cities/" + post.city.id.to_s + "/posts/" + post.id.to_s }
+                %h4
+                  #{post.title}
+              %span= post.content
+              %hr

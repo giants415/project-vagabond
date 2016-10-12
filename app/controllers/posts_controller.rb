@@ -1,7 +1,9 @@
 class PostsController < ApplicationController
+  before_action :logged_in?, only: [:new, :create, :edit, :update, :destroy]
 
   def index
     @posts = Post.where(city_id: params[:city_id]).order(created_at: :desc)
+    @city = City.find_by(post_id)
   end
 
   def new
@@ -28,6 +30,7 @@ class PostsController < ApplicationController
 
     @post.update_attributes(post_params)
     redirect_to post_path(@city, @post)
+
   end
 
   def destroy
